@@ -1,0 +1,19 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ */
+?>
+<?php
+$store_phone = Mage::getStoreConfig('general/store_information/phone');
+$general_email = Mage::getStoreConfig('trans_email/ident_general/email');
+?>
+<ul class="list-inline">
+	<li>
+		<a href="mailto:<?php echo $general_email;?>"><i class="fa fa-envelope-o"></i> <?php echo $general_email;?></a>
+	</li>
+	<li>
+		<a href="callto:<?php echo($store_phone!="")?$store_phone:'+1123456xxxx';?>"><i class="fa fa-phone"></i> <?php echo($store_phone!="")?$store_phone:'(+1)-123-456-xxxx';?></a>
+	</li>
+</ul>

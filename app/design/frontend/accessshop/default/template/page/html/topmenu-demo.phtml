@@ -1,0 +1,43 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ *
+ * Top menu for store
+ *
+ * @see Mage_Page_Block_Html_Topmenu
+ */
+?>
+<?php
+if(strpos(Mage::helper('core/url')->getCurrentUrl(),'demo')!==false || strpos(Mage::helper('core/url')->getCurrentUrl(),'magento-theme')!==false)
+{
+    $mode = "demo";
+}
+else
+{
+    $mode = "";
+}
+?>
+<ul class="nav navbar-nav menu">
+<li class="level0 nav-0 first level-top <?php echo (Mage::helper('core/url')->getCurrentUrl() ==$this->getBaseUrl())?'active':''; echo ($mode=='demo')?' parent dropdown':'';?>">
+    <a href="<?php echo $this->getBaseUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>"><span>Home</span></a>
+    <ul class="level0 dropdown-menu" style="display: none;">
+        <?php
+        if($mode=='demo')
+        {
+            ?>
+            <li class="level1 nav-0-0 first <?php echo (Mage::helper('core/url')->getCurrentUrl() == $this->getBaseUrl())?'active':'';?>"><a href="<?php echo $this->getBaseUrl().'home';?>" title="Home 1 Col"><span>Home 1 Col</span></a></li>
+            <li class="level1 nav-0-1 <?php echo (Mage::helper('core/url')->getCurrentUrl() == $this->getBaseUrl().'home-2col-left')?'active':'';?>"><a href="<?php echo $this->getBaseUrl().'home-2col-left';?>" title="Home 2 Col Left"><span>Home 2 Col Left</span></a></li>
+            <li class="level1 nav-0-2 <?php echo (Mage::helper('core/url')->getCurrentUrl() == $this->getBaseUrl().'home-2col-right')?'active':'';?>"><a href="<?php echo $this->getBaseUrl().'home-2col-right'; ?>" title="Home 2 Col Right"><span>Home 2 Col Right</span></a></li>
+            <li class="level1 nav-0-3 last <?php echo (Mage::helper('core/url')->getCurrentUrl() == $this->getBaseUrl().'home-3col')?'active':'';?>"><a href="<?php echo $this->getBaseUrl().'home-3col'; ?>" title="Home 3 Col"><span>Home 3 Col</span></a></li>
+            <?php
+        }
+        ?>
+    </ul>
+</li>
+<?php $_menu = $this->getHtml('level-top') ?>
+<?php if ($_menu): ?>
+<?php echo $_menu ?>
+<?php endif ?>
+</ul>

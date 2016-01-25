@@ -1,0 +1,41 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ **
+ * Product media data template
+ * @see Mage_Catalog_Block_Product_View_Media
+ */
+?>
+<?php
+    $_product = $this->getProduct();
+    $_helper = $this->helper('catalog/output');
+?>
+<?php if ($_product->getImage() != 'no_selection' && $_product->getImage()): ?>
+<p class="product-image img-thumbnail">
+    <?php
+        $_img = '<img id="product_main_image" src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(500,600).'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" class="img-responsive" />';
+        echo $_helper->productAttribute($_product, $_img, 'image');
+    ?>
+    <!-- this link will trigger the prettyPhoto zoom -->
+    <a rel="group" href="<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(500,600);?>" class="gallery-hover visible-md visible-lg">Zoom Images</a>
+</p>
+<?php else: ?>
+<p class="product-image">
+    <?php
+        $_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->escapeHtml($this->getImageLabel()).'" title="'.$this->escapeHtml($this->getImageLabel()).'" />';
+        echo $_helper->productAttribute($_product, $_img, 'image');
+    ?>
+</p>
+<?php endif; ?>
+<!--Display Additional images of the product-->
+<?php if (count($this->getGalleryImages()) > 0): ?>
+<div class="more-views">
+    <?php foreach ($this->getGalleryImages() as $_image): ?>
+        <a rel="group" class="gallery-hover" href="<?php echo $this->helper('catalog/image')->init($this->getProduct(),'thumbnail',$_image->getFile())->resize(500,600);?>" title="<?php echo $this->escapeHtml($_image->getLabel()) ?>" class="img-thumbnail"><img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize(56); ?>" width="56" height="56" alt="<?php echo $this->escapeHtml($_image->getLabel()) ?>" /></a>
+        <!--this is the hidden link for prettyphoto zoom -->
+        <a style="display:none" href="<?php echo $this->helper('catalog/image')->init($this->getProduct(),'thumbnail', $_image->getFile()); ?>" rel="prettyPhoto[productGallery]"></a>
+    <?php endforeach; ?>
+</div>
+<?php endif; ?>

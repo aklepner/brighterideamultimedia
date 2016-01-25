@@ -1,0 +1,61 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="<?php echo $this->getLang(); ?>"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="<?php echo $this->getLang(); ?>"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="<?php echo $this->getLang(); ?>"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="<?php echo $this->getLang(); ?>"> <!--<![endif]-->
+<head>
+    <?php echo $this->getChildHtml('head'); ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start'); ?>
+<?php echo $this->getChildHtml('global_notices'); ?>
+<header>
+    <?php echo $this->getChildHtml('header'); ?>
+</header>
+<?php echo $this->getChildHtml('slider'); ?>
+<div class="maincontent col3-layout">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php echo $this->getChildHtml('breadcrumbs'); ?>
+                <aside class="col-left sidebar">
+                    <?php echo $this->getChildHtml('left'); ?>
+                </aside>
+                <div class="col-main">
+                    <?php echo $this->getChildHtml('global_messages'); ?>
+                    <?php echo $this->getChildHtml('content'); ?>
+                </div>
+                <aside class="col-right sidebar">
+                    <?php echo $this->getChildHtml('right'); ?>
+                </aside>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="brands">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <?php echo $this->getChildHtml('home-block-brands'); ?>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="before-footer">
+    <?php echo $this->getChildHtml('before-footer'); ?>
+</section>
+<footer id="footer">
+    <?php echo $this->getChildHtml('footer'); ?>
+</footer>
+<?php echo $this->getChildHtml('before_body_end'); ?>
+<?php echo $this->getAbsoluteFooter(); ?>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ */
+?>
+<?php $catalogSearchHelper = $this->helper('catalogsearch'); ?>
+<form id="search_mini_form" class="navbar-form navbar-right" role="search" action="<?php echo $catalogSearchHelper->getResultUrl()?>" method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <div class="categories-search">
+            <select name="cat" class="search-categories">
+                <option>ALL CATEGORIES</option>
+                <?php
+                $layer = Mage::getSingleton('catalog/layer');
+                $_category = Mage::getModel('catalog/category')->load(2); //this is cat 3, or can use: 
+                $_category = $layer->getCurrentCategory();
+                $_categories = $_category->getCollection()
+                 ->addAttributeToSelect(array('url_key','name','image','all_children','is_anchor','description')) //or whatever fields you want
+                 ->addAttributeToFilter('is_active', 1)
+                 ->addIdFilter($_category->getChildren())
+                 ->setOrder('position', 'ASC')
+                 ->joinUrlRewrite();
+                ?>
+                <?php foreach ($_categories as $_category):?>
+                    <option value="<?php echo $_category->getId();?>"><?php echo $this->htmlEscape($_category->getName());?></option>
+                    <?php $_child_categories = Mage::getModel('catalog/category')->getCategories($_category->getId());?>
+                    <?php foreach ($_child_categories as $_child_category):?>
+                        <option value="<?php echo $_child_category->getId();?>">&nbsp;&#10149;<?php echo $this->htmlEscape($_child_category->getName());?></option>
+                        <?php $_grand_child_categories = Mage::getModel('catalog/category')->getCategories($_child_category->getId()); //this is cat 3, or can use:?>
+                        <?php foreach ($_grand_child_categories as $_grand_child_category):?>
+                            <option value="<?php echo $_grand_child_category->getId();?>">&nbsp;&nbsp;&#10149;<?php echo $this->htmlEscape($_grand_child_category->getName());?></option>
+                        <?php endforeach;?>
+                    <?php endforeach;?>
+                <?php endforeach;?>
+                
+            </select>
+            <input id="search" type="text" name="<?php echo $catalogSearchHelper->getQueryParamName() ?>" value="<?php echo $catalogSearchHelper->getEscapedQueryText() ?>" class="form-control" maxlength="<?php echo $catalogSearchHelper->getMaxQueryLength();?>" placeholder="<?php echo $this->__('Search...') ?>" />
+            </div>
+            <span class="input-group-btn">
+                <button type="submit" class="searchbtn"><i class="fa fa-search"></i></button>
+            </span>
+        </div>
+    </div>
+    <div id="search_autocomplete" class="search-autocomplete"></div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Search...') ?>');
+searchForm.initAutocomplete('<?php echo $catalogSearchHelper->getSuggestUrl() ?>', 'search_autocomplete');
+//]]>
+</script>

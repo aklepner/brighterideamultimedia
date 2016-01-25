@@ -1,0 +1,25 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ */
+?>
+<div class="block block-leftnav">
+	<div class="block-title">
+		<strong>
+			<?php echo $this->__('Categories') ?>
+		</strong>
+	</div>
+	<div class="block-content">
+		<div >
+            <ul class="sidenav-cat" id="home-side-menu">
+    			<?php foreach ($this->getStoreCategories() as $_category): ?>
+    				<?php if($_category->name!=""): ?>
+    					<?php echo $this->drawItem($_category); ?>
+    				<?php endif?>
+    			<?php endforeach ?>
+    		</ul>
+        </div>
+	</div>
+</div>

@@ -1,0 +1,49 @@
+<?php
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ */
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 left-links">
+            <div class="row">
+                <div class="col-sm-3 block-footer-cmslinks">
+                    <?php echo $this->getChildHtml('footer-cmslinks'); ?>
+                </div>
+                <div class="col-sm-3 block-footer-cmslinks">
+                    <?php echo $this->getChildHtml('footer-cmslinks1'); ?>
+                </div>
+                <div class="col-sm-3 block-footer-recent-products">
+                    <?php echo $this->getChildHtml('footer_newsletter'); ?>
+                </div>
+                <div class="col-sm-3 block-footer-contact-info">
+                    <?php echo $this->getChildHtml('footer-contact-info'); ?>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 right-links">
+            <div class="block-footer-social">
+                <?php echo $this->getChildHtml('footer-social'); ?>
+            </div>
+            <div class="block-footer-cards">
+                <?php echo $this->getChildHtml('footer-cards'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="block-footer-company">
+                <?php echo $this->getChildHtml('footer-company'); ?>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 block-copyright pull-left">
+            <?php echo $this->getCopyright(); ?>
+            <p class="pull-right">A free Magento Theme by: <a href="http://accessshopthemes.com/">AccessShopThemes.com</a></p>
+        </div>
+    </div>
+    <div id="back_top" style="display: block;"></div>
+</div>

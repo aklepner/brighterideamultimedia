@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ *
+-->
+<layout>
+    <default>
+        <reference name="head">
+            <!-- CSS -->
+            <!-- Removing the styles.css -->
+            <!--<action method="removeItem"><type>skin_css</type><name>css/styles.css</name></action>-->
+            <!-- Adding Css -->
+            <action method="addItem"><type>skin_css</type><stylesheet>css/jquery.fancybox.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/nivo-slider.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/sequencejs-theme.modern-slide-in.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/animate.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/reset.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/bootstrap.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/main.css</stylesheet></action>
+            <action method="addItem"><type>skin_css</type><stylesheet>css/main-responsive.css</stylesheet></action>
+
+            <!-- JS -->
+            <!-- jQuery -->
+            <action method="addItem"><type>skin_js</type><name>js/jquery-1.11.0.min.js</name><params/></action>
+            <!-- Adding Javascripts -->
+            <action method="addItem"><type>skin_js</type><name>js/jquery.nivo.slider.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/jquery.carouFredSel-6.2.1.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/wow.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/bootstrap.min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/jquery.sequence-min.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/jquery.fancybox.js</name></action>
+            
+            <!-- Custom Scripts in this file -->
+            <action method="addItem"><type>skin_js</type><name>js/jquery.scripts.js</name></action>
+        </reference>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+            
+            <block type="cms/block" name="before-footer" as="before-footer">
+                <action method="setBlockId">
+                    <block_id>footer-top-block</block_id>
+                </action>
+            </block>
+
+            <block type="cms/block" name="home-block-brands">
+                <action method="setBlockId"><block_id>home-block-brands</block_id></action>
+            </block>
+        </reference>
+        
+        <!-- Uncomment these tags to remove selected blocks -->
+        <!--
+            <remove name="right.reports.product.viewed" />
+            <remove name="left.reports.product.viewed" />
+            <remove name="catalog.compare.sidebar"/>
+            <remove name="right.reports.product.compared"/>
+            <remove name="wishlist_sidebar"/>
+            <remove name="tags_popular"/>
+            <remove name="right.poll"/>
+            <remove name="paypal.partner.right.logo"/>
+            <remove name="reorder"/>
+        -->
+
+        <remove name="sale.reorder.sidebar"/>
+        <remove name="reorder"/>
+        <remove name="wishlist_sidebar"/>
+        <remove name="cart_sidebar" />
+        <remove name="checkout_cart_link" />
+        <remove name="paypal.partner.right.logo"/>
+        <remove name="left.newsletter"/>
+
+        <reference name="top.links">
+            <block type="checkout/links" name="checkout_link">
+                <action method="addCheckoutLink"></action>
+            </block>
+        </reference>
+
+        <reference name="header">
+            <block type="core/template" name="block_header_links_top_left" as="block_header_links_top_left" template="page/html/header_left_links.phtml" />
+            <block type="cms/block" name="block_header_links_right" as="block_header_links_right">
+                <action method="setBlockId">
+                    <block_id>block_header_links_right_middle</block_id>
+                </action>
+            </block>
+            <block type="checkout/cart_sidebar" name="top_cart" as="top_cart" template="checkout/cart/topcart.phtml" before="-">
+                <action method="addItemRender"><type>simple</type>
+                    <block>checkout/cart_item_renderer</block>
+                    <template>checkout/cart/sidebar/default.phtml</template>
+                </action>
+                <action method="addItemRender"><type>grouped</type>
+                    <block>checkout/cart_item_renderer_grouped</block>
+                    <template>checkout/cart/sidebar/default.phtml</template>
+                </action>
+                <action method="addItemRender"><type>configurable</type>
+                    <block>checkout/cart_item_renderer_configurable</block>
+                    <template>checkout/cart/sidebar/default.phtml</template>
+                </action>
+                <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+                    <label>Shopping Cart Sidebar Extra Actions</label>
+                </block>
+            </block>
+        </reference>
+
+        <reference name="footer">
+            <block type="cms/block" name="footer-cmslinks" as="footer-cmslinks">
+                <action method="setBlockId"><block_id>footer-cmslinks</block_id></action>
+            </block>
+            <block type="cms/block" name="footer-cmslinks1" as="footer-cmslinks1">
+                <action method="setBlockId"><block_id>footer-cmslinks1</block_id></action>
+            </block>
+            <block type="newsletter/subscribe" name="footer.newsletter" as="footer_newsletter" template="newsletter/subscribe.phtml"/>
+            <block type="cms/block" name="footer-contact-info" as="footer-contact-info">
+                <action method="setBlockId"><block_id>footer-contact-info</block_id></action>
+            </block>
+            <block type="cms/block" name="footer-social" as="footer-social">
+                <action method="setBlockId"><block_id>footer-social</block_id></action>
+            </block>
+            <block type="cms/block" name="footer-cards" as="footer-cards">
+                <action method="setBlockId"><block_id>footer-cards</block_id></action>
+            </block>
+
+            <block type="cms/block" name="footer-company" as="footer-company">
+                <action method="setBlockId"><block_id>footer-company</block_id></action>
+            </block>
+        </reference>
+    </default>
+
+    <cms_index_index>
+        <reference name="root">
+            <!-- define the block slider -->
+            <block type="cms/block" name="slider" as="slider" translate="label" before="content">
+                <action method="setBlockId"><block_id>home-carousel</block_id></action>
+            </block>
+        </reference>
+        <reference name="left">
+            <block type="catalog/navigation" before="-" name="leftNav" as="leftNav" template="catalog/navigation/leftnav.phtml"/>
+        </reference>
+        <reference name="content">
+            <block type="cms/block" name="home-slider-below-banner" before="-" after="slider">
+               <action method="setBlockId"><block_id>home-block-below-slider</block_id></action>
+           </block>
+           <block type="categoryfeatured/list" name="home-featured" as="home-featured" template="catalog/product/home-featured.phtml" after="home-slider-below-banner">
+                <action method="setData"><key>num_products</key><value>100</value></action>
+                <action method="setData"><key>product_per_row</key><value>100</value></action>
+                <action method="setData"><key>product_type</key><value>featured</value></action>
+            </block>
+            <block type="cms/block" name="home-middle-banners" after="home-featured">
+               <action method="setBlockId"><block_id>home-middle-banners</block_id></action>
+           </block>
+           <block type="categorybestsellers/list" name="home-bestsellers" as="home-bestsellers" template="catalog/product/home-best-sellers.phtml" after="home-middle-banners">
+                <action method="setData"><key>num_products</key><value>100</value></action>
+                <action method="setData"><key>product_per_row</key><value>100</value></action>
+                <action method="setData"><key>product_type</key><value>bestsellers</value></action>
+            </block>
+            <block type="cms/block" name="home-block3">
+               <action method="setBlockId"><block_id>home-block-below-best-sellers</block_id></action>
+            </block>
+        </reference>
+    </cms_index_index>
+
+    <catalog_category_default>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_default>
+    <catalog_category_layered>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_layered>
+
+    <catalog_product_view>
+
+        <reference name="root">
+           <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+
+        <reference name="product.info">
+            <!-- Change review summary template: removed links to review page. IMPORTANT: new template file. -->
+            <action method="addReviewSummaryTemplate"><type>default</type><template>review/helper/summary_nolinks.phtml</template></action>
+        </reference>
+    </catalog_product_view>
+</layout>

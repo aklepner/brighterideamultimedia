@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    design
+ * @package     accessshop_lite_default
+ * @copyright   Copyright (c) 2015 AccessShop Themes (http://www.accessshopthemes.com)
+ *
+-->
+<layout version="0.1.0">
+
+<!--
+Default layout, loads most of the pages
+-->
+
+    <default>
+
+        <!-- Mage_Poll -->
+        <reference name="left">
+            <block type="poll/activePoll" name="left.poll">
+                <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
+                <action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>
+            </block>
+        </reference>
+        <reference name="right">
+            <block type="poll/activePoll" name="right.poll">
+                <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
+                <action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>
+            </block>
+        </reference>
+
+    </default>
+
+<!--
+Customer account home dashboard layout
+-->
+
+    <customer_account_index>
+        <reference name="right">
+            <action method="unsetChild"><name>right.poll</name></action>
+        </reference>
+    </customer_account_index>
+
+</layout>

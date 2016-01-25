@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <jalak_zeroprice translate="title" module="jalak_zeroprice">
+                                        <title>Jalak Zero Price</title>
+                                        <sort_order>50</sort_order>
+                                    </jalak_zeroprice>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

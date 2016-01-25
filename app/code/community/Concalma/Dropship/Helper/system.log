@@ -1,0 +1,2582 @@
+2011-09-14T05:44:17+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-14T05:45:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-14T05:50:44+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-14T06:01:08+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-15T07:28:27+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-15T07:28:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-15T07:28:46+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:13:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:14:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:46:59+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:47:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:55:13+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T15:57:41+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:03:53+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:05:49+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:07:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:09:26+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:23:40+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-18T16:32:37+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T01:50:08+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T01:50:14+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T01:52:21+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T01:52:27+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T01:52:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T04:00:42+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-19T04:00:47+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-22T14:04:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-22T14:04:17+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T06:30:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T06:31:01+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T08:09:15+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T08:10:06+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T10:43:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T10:43:56+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T10:45:00+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-09-26T10:45:49+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:35:56+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:36:04+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:42:16+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:42:48+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:43:12+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:43:15+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:44:52+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:52:08+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:58:48+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:59:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-11T09:59:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T02:58:29+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T02:58:42+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T03:02:59+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T03:03:58+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T03:08:12+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-12T03:20:15+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T03:28:54+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T03:29:03+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:00:07+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:01:09+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:01:17+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:02:29+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:02:34+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:02:38+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:32:02+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:32:02+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:32:02+00:00 ERR (3): NY
+2011-10-15T08:32:02+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:32:02+00:00 ERR (3): 7
+2011-10-15T08:34:42+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:42+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:42+00:00 ERR (3): NY
+2011-10-15T08:34:42+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:42+00:00 ERR (3): 7
+2011-10-15T08:34:50+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:50+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:50+00:00 ERR (3): NY
+2011-10-15T08:34:50+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:34:50+00:00 ERR (3): 7
+2011-10-15T08:35:17+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:35:17+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:35:17+00:00 ERR (3): NY
+2011-10-15T08:35:17+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:35:17+00:00 ERR (3): 7
+2011-10-15T08:36:44+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:36:44+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:36:44+00:00 ERR (3): NY
+2011-10-15T08:36:44+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:36:44+00:00 ERR (3): 7
+2011-10-15T08:46:54+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:46:54+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:46:54+00:00 ERR (3): NY
+2011-10-15T08:46:54+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:46:54+00:00 ERR (3): 7
+2011-10-15T08:48:47+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:48:47+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:48:47+00:00 ERR (3): NY
+2011-10-15T08:48:47+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:48:47+00:00 ERR (3): 7
+2011-10-15T08:48:48+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-15T08:49:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:49:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:49:32+00:00 ERR (3): NY
+2011-10-15T08:49:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T08:49:32+00:00 ERR (3): 7
+2011-10-15T09:04:13+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T09:04:13+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T09:04:13+00:00 ERR (3): NY
+2011-10-15T09:04:13+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-15T09:04:13+00:00 ERR (3): 7
+2011-10-16T08:05:39+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:05:39+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:05:39+00:00 ERR (3): NY
+2011-10-16T08:05:39+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:05:39+00:00 ERR (3): 7
+2011-10-16T08:06:13+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:06:13+00:00 ERR (3): NY
+2011-10-16T08:06:13+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:06:13+00:00 ERR (3): 7
+2011-10-16T08:08:57+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-16T08:09:11+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-16T08:09:56+00:00 DEBUG (7): HEADERS ALREADY SENT: <pre>[0] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:44
+[1] /home/rondaus1/public_html/store/online/lib/Zend/Controller/Response/Abstract.php:766
+[2] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Response/Http.php:75
+[3] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Controller/Varien/Front.php:188
+[4] /home/rondaus1/public_html/store/online/app/code/core/Mage/Core/Model/App.php:347
+[5] /home/rondaus1/public_html/store/online/app/Mage.php:640
+[6] /home/rondaus1/public_html/store/online/index.php:80
+</pre>
+2011-10-16T08:10:22+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:10:23+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:10:23+00:00 ERR (3): NY
+2011-10-16T08:10:23+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:10:23+00:00 ERR (3): 7
+2011-10-16T08:10:23+00:00 ERR (3): CL
+2011-10-16T08:10:23+00:00 ERR (3): Array
+(
+    [0] => 347
+)
+
+2011-10-16T08:10:23+00:00 ERR (3): 12
+2011-10-16T08:16:25+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:16:25+00:00 ERR (3): NY
+2011-10-16T08:16:25+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-16T08:16:25+00:00 ERR (3): 7
+2011-10-16T08:16:27+00:00 ERR (3): CL
+2011-10-16T08:16:27+00:00 ERR (3): Array
+(
+    [0] => 347
+)
+
+2011-10-16T08:16:27+00:00 ERR (3): 12
+2011-10-21T11:03:02+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:02+00:00 ERR (3): warehouse is NY
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): warehouse  NY13470
+2011-10-21T11:03:02+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:02+00:00 ERR (3): warehouse is CL
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): warehouse  CL90001
+2011-10-21T11:03:02+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:02+00:00 ERR (3): warehouse is NY
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): warehouse  NY13470
+2011-10-21T11:03:02+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:02+00:00 ERR (3): warehouse is CL
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): warehouse  CL90001
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:02+00:00 ERR (3): warehouse is NY
+2011-10-21T11:03:02+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-21T11:03:02+00:00 ERR (3): warehouse  NY13470
+2011-10-21T11:03:03+00:00 ERR (3): des zipcode 68038
+2011-10-21T11:03:03+00:00 ERR (3): warehouse is CL
+2011-10-21T11:03:03+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-21T11:03:03+00:00 ERR (3): warehouse  CL90001
+2011-10-21T11:03:03+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-21T11:03:03+00:00 ERR (3): NY
+2011-10-21T11:03:03+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-21T11:03:03+00:00 ERR (3): 7
+2011-10-27T07:36:45+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is NY
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:36:46+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is CL
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:36:46+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is NY
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:36:46+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is CL
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is NY
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:36:46+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:36:46+00:00 ERR (3): warehouse is CL
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): NY
+2011-10-27T07:36:46+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:36:46+00:00 ERR (3): 7
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is NY
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is CL
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is NY
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is CL
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is NY
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  NY13470
+2011-10-27T07:40:31+00:00 ERR (3): des zipcode 68038
+2011-10-27T07:40:31+00:00 ERR (3): warehouse is CL
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): warehouse  CL90001
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): NY
+2011-10-27T07:40:31+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T07:40:31+00:00 ERR (3): 7
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is NY
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is CL
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is NY
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is CL
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is NY
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:01:32+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:32+00:00 ERR (3): warehouse is CL
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): NY
+2011-10-27T08:01:32+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T08:01:32+00:00 ERR (3): 7
+2011-10-27T08:01:32+00:00 INFO (6): Flat Rate Result
+2011-10-27T08:01:32+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 
+)
+
+2011-10-27T08:01:35+00:00 INFO (6): array of test method
+2011-10-27T08:01:35+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => GND
+                            [method_title] => Ground
+                            [cost] => 15.85
+                            [price] => 24.27
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 3DS
+                            [method_title] => 3 Day Select
+                            [cost] => 34.62
+                            [price] => 34.62
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 2DA
+                            [method_title] => 2nd Day Air
+                            [cost] => 51.78
+                            [price] => 51.78
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 1DA
+                            [method_title] => Next Day Air
+                            [cost] => 96.29
+                            [price] => 96.29
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Mage_Shipping_Model_Rate_Result_Error Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => fedex
+                            [carrier_title] => Federal Express
+                            [error_message] => This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 1
+)
+
+2011-10-27T08:01:35+00:00 INFO (6): =============Current________
+2011-10-27T08:01:35+00:00 INFO (6): Array
+(
+    [title] => Flat Rate
+    [methods] => Array
+        (
+            [flatrate] => Array
+                (
+                    [title] => Fixed
+                    [price] => 20
+                    [price_formatted] => $20.00
+                )
+
+        )
+
+)
+
+2011-10-27T08:01:35+00:00 INFO (6): =============Current________
+2011-10-27T08:01:35+00:00 INFO (6): Array
+(
+    [title] => United Parcel Service
+    [methods] => Array
+        (
+            [GND] => Array
+                (
+                    [title] => Ground
+                    [price] => 24.27
+                    [price_formatted] => $24.27
+                )
+
+            [3DS] => Array
+                (
+                    [title] => 3 Day Select
+                    [price] => 34.62
+                    [price_formatted] => $34.62
+                )
+
+            [2DA] => Array
+                (
+                    [title] => 2nd Day Air
+                    [price] => 51.78
+                    [price_formatted] => $51.78
+                )
+
+            [1DA] => Array
+                (
+                    [title] => Next Day Air
+                    [price] => 96.29
+                    [price_formatted] => $96.29
+                )
+
+        )
+
+)
+
+2011-10-27T08:01:35+00:00 INFO (6): =============Current________
+2011-10-27T08:01:35+00:00 INFO (6): Array
+(
+    [title] => Federal Express
+    [methods] => Array
+        (
+            [] => Array
+                (
+                    [title] => 
+                    [price] => 
+                    [price_formatted] => $0.00
+                )
+
+        )
+
+)
+
+2011-10-27T08:01:35+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:36+00:00 ERR (3): warehouse is NY
+2011-10-27T08:01:36+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:36+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:01:36+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:37+00:00 ERR (3): warehouse is CL
+2011-10-27T08:01:37+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:37+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:01:37+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:37+00:00 ERR (3): warehouse is NY
+2011-10-27T08:01:37+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:37+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:01:37+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:01:38+00:00 ERR (3): warehouse is CL
+2011-10-27T08:01:38+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:01:38+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:01:38+00:00 ERR (3): CL
+2011-10-27T08:01:38+00:00 ERR (3): Array
+(
+    [0] => 347
+)
+
+2011-10-27T08:01:38+00:00 ERR (3): 12
+2011-10-27T08:01:38+00:00 INFO (6): Flat Rate Result
+2011-10-27T08:01:38+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 
+)
+
+2011-10-27T08:01:39+00:00 INFO (6): array of test method
+2011-10-27T08:01:39+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [1] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => GND
+                            [method_title] => Ground
+                            [cost] => 18.2
+                            [price] => 24.27
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 3DS
+                            [method_title] => 3 Day Select
+                            [cost] => 46.59
+                            [price] => 46.59
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [3] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 2DA
+                            [method_title] => 2nd Day Air
+                            [cost] => 75.55
+                            [price] => 75.55
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [4] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => ups
+                            [carrier_title] => United Parcel Service
+                            [method] => 1DA
+                            [method_title] => Next Day Air
+                            [cost] => 126.85
+                            [price] => 126.85
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+            [5] => Mage_Shipping_Model_Rate_Result_Error Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => fedex
+                            [carrier_title] => Federal Express
+                            [error_message] => This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 1
+)
+
+2011-10-27T08:01:39+00:00 INFO (6): =============Current________
+2011-10-27T08:01:39+00:00 INFO (6): Array
+(
+    [title] => Flat Rate
+    [methods] => Array
+        (
+            [flatrate] => Array
+                (
+                    [title] => Fixed
+                    [price] => 20
+                    [price_formatted] => $20.00
+                )
+
+        )
+
+)
+
+2011-10-27T08:01:39+00:00 INFO (6): =============Current________
+2011-10-27T08:01:39+00:00 INFO (6): Array
+(
+    [title] => United Parcel Service
+    [methods] => Array
+        (
+            [GND] => Array
+                (
+                    [title] => Ground
+                    [price] => 24.27
+                    [price_formatted] => $24.27
+                )
+
+            [3DS] => Array
+                (
+                    [title] => 3 Day Select
+                    [price] => 46.59
+                    [price_formatted] => $46.59
+                )
+
+            [2DA] => Array
+                (
+                    [title] => 2nd Day Air
+                    [price] => 75.55
+                    [price_formatted] => $75.55
+                )
+
+            [1DA] => Array
+                (
+                    [title] => Next Day Air
+                    [price] => 126.85
+                    [price_formatted] => $126.85
+                )
+
+        )
+
+)
+
+2011-10-27T08:01:39+00:00 INFO (6): =============Current________
+2011-10-27T08:01:39+00:00 INFO (6): Array
+(
+    [title] => Federal Express
+    [methods] => Array
+        (
+            [] => Array
+                (
+                    [title] => 
+                    [price] => 
+                    [price_formatted] => $0.00
+                )
+
+        )
+
+)
+
+2011-10-27T08:02:18+00:00 INFO (6): ====================title , carrieer, method method getSMPriceNY ups 2DA
+2011-10-27T08:02:18+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:02:18+00:00 ERR (3): warehouse is NY
+2011-10-27T08:02:18+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:02:18+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:02:18+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:02:18+00:00 ERR (3): warehouse is CL
+2011-10-27T08:02:18+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:02:18+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:02:18+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T08:02:18+00:00 ERR (3): NY
+2011-10-27T08:02:18+00:00 ERR (3): Array
+(
+    [0] => 346
+)
+
+2011-10-27T08:02:18+00:00 ERR (3): 7
+2011-10-27T08:02:18+00:00 INFO (6): Flat Rate Result
+2011-10-27T08:02:18+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 
+)
+
+2011-10-27T08:02:19+00:00 INFO (6): ======output of getSMPrice
+2011-10-27T08:02:19+00:00 INFO (6): Array
+(
+    [price] => 51.78
+    [shipping_description] => United Parcel Service - 2nd Day Air
+)
+
+2011-10-27T08:02:20+00:00 INFO (6): ====================title , carrieer, method method getSMPriceCL ups 1DA
+2011-10-27T08:02:20+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:02:20+00:00 ERR (3): warehouse is NY
+2011-10-27T08:02:20+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:02:20+00:00 ERR (3): warehouse  NY13470
+2011-10-27T08:02:20+00:00 ERR (3): des zipcode 68038
+2011-10-27T08:02:20+00:00 ERR (3): warehouse is CL
+2011-10-27T08:02:20+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T08:02:20+00:00 ERR (3): warehouse  CL90001
+2011-10-27T08:02:20+00:00 ERR (3): CL
+2011-10-27T08:02:20+00:00 ERR (3): Array
+(
+    [0] => 347
+)
+
+2011-10-27T08:02:20+00:00 ERR (3): 12
+2011-10-27T08:02:20+00:00 INFO (6): Flat Rate Result
+2011-10-27T08:02:20+00:00 INFO (6): Mage_Shipping_Model_Rate_Result Object
+(
+    [_rates:protected] => Array
+        (
+            [0] => Mage_Shipping_Model_Rate_Result_Method Object
+                (
+                    [_data:protected] => Array
+                        (
+                            [carrier] => flatrate
+                            [carrier_title] => Flat Rate
+                            [method] => flatrate
+                            [method_title] => Fixed
+                            [price] => 20
+                            [cost] => 20
+                        )
+
+                    [_hasDataChanges:protected] => 1
+                    [_origData:protected] => 
+                    [_idFieldName:protected] => 
+                    [_isDeleted:protected] => 
+                    [_oldFieldsMap:protected] => Array
+                        (
+                        )
+
+                    [_syncFieldsMap:protected] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [_error:protected] => 
+)
+
+2011-10-27T08:02:22+00:00 INFO (6): ======output of getSMPrice
+2011-10-27T08:02:22+00:00 INFO (6): Array
+(
+    [price] => 126.85
+    [shipping_description] => United Parcel Service - Next Day Air
+)
+
+2011-10-27T08:04:07+00:00 INFO (6): 1st controller
+2011-10-27T08:04:07+00:00 INFO (6): prepare save dropship
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 4
+        )
+
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 4
+        )
+
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): entity id 
+2011-10-27T08:04:08+00:00 INFO (6): 4
+2011-10-27T08:04:08+00:00 INFO (6): SELECT `increment_id` FROM `sales_flat_order` where `entity_id` = 4
+2011-10-27T08:04:08+00:00 INFO (6): ====item collecion prepareOrderDropship method====
+2011-10-27T08:04:08+00:00 INFO (6): ============ array warehouse====
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [0] => NY
+    [1] => CL
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): =======each warehosue =====
+2011-10-27T08:04:08+00:00 INFO (6): NY
+2011-10-27T08:04:08+00:00 INFO (6): =========Print Session=======
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [NY] => Array
+        (
+            [title] => NY
+            [carrier] => ups
+            [method] => 2DA
+            [price] => 51.78
+            [sm_des] => United Parcel Service - 2nd Day Air
+        )
+
+    [CL] => Array
+        (
+            [title] => CL
+            [carrier] => ups
+            [method] => 1DA
+            [price] => 126.85
+            [sm_des] => United Parcel Service - Next Day Air
+        )
+
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): +++++++++++++++session in warehouse==============
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [title] => NY
+    [carrier] => ups
+    [method] => 2DA
+    [price] => 51.78
+    [sm_des] => United Parcel Service - 2nd Day Air
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): +++++++++++++++END session in warehouse==============
+2011-10-27T08:04:08+00:00 INFO (6): +++++++++++++++++++
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 4
+        )
+
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): entity id 
+2011-10-27T08:04:08+00:00 INFO (6): 4
+2011-10-27T08:04:08+00:00 INFO (6): SELECT `increment_id` FROM `sales_flat_order` where `entity_id` = 4
+2011-10-27T08:04:08+00:00 INFO (6): 100000004
+2011-10-27T08:04:08+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 4
+        )
+
+)
+
+2011-10-27T08:04:08+00:00 INFO (6): entity id 
+2011-10-27T08:04:08+00:00 INFO (6): 4
+2011-10-27T08:04:08+00:00 INFO (6): SELECT `increment_id` FROM `sales_flat_order` where `entity_id` = 4
+2011-10-27T08:04:10+00:00 INFO (6): *********************Order Save************
+2011-10-27T08:04:10+00:00 INFO (6): =======each warehosue =====
+2011-10-27T08:04:10+00:00 INFO (6): CL
+2011-10-27T08:04:10+00:00 INFO (6): =========Print Session=======
+2011-10-27T08:04:10+00:00 INFO (6): Array
+(
+    [NY] => Array
+        (
+            [title] => NY
+            [carrier] => ups
+            [method] => 2DA
+            [price] => 51.78
+            [sm_des] => United Parcel Service - 2nd Day Air
+        )
+
+    [CL] => Array
+        (
+            [title] => CL
+            [carrier] => ups
+            [method] => 1DA
+            [price] => 126.85
+            [sm_des] => United Parcel Service - Next Day Air
+        )
+
+)
+
+2011-10-27T08:04:10+00:00 INFO (6): +++++++++++++++session in warehouse==============
+2011-10-27T08:04:10+00:00 INFO (6): Array
+(
+    [title] => CL
+    [carrier] => ups
+    [method] => 1DA
+    [price] => 126.85
+    [sm_des] => United Parcel Service - Next Day Air
+)
+
+2011-10-27T08:04:10+00:00 INFO (6): +++++++++++++++END session in warehouse==============
+2011-10-27T08:04:10+00:00 INFO (6): +++++++++++++++++++
+2011-10-27T08:04:10+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 5
+        )
+
+)
+
+2011-10-27T08:04:10+00:00 INFO (6): entity id 
+2011-10-27T08:04:10+00:00 INFO (6): 5
+2011-10-27T08:04:10+00:00 INFO (6): SELECT `increment_id` FROM `sales_flat_order` where `entity_id` = 5
+2011-10-27T08:04:10+00:00 INFO (6): 100000005
+2011-10-27T08:04:10+00:00 INFO (6): Array
+(
+    [0] => Array
+        (
+            [maximum] => 5
+        )
+
+)
+
+2011-10-27T08:04:10+00:00 INFO (6): entity id 
+2011-10-27T08:04:10+00:00 INFO (6): 5
+2011-10-27T08:04:10+00:00 INFO (6): SELECT `increment_id` FROM `sales_flat_order` where `entity_id` = 5
+2011-10-27T08:04:10+00:00 INFO (6): *********************Order Save************
+2011-10-27T08:04:15+00:00 INFO (6): 6 controller after invoice save
+2011-10-27T08:04:15+00:00 INFO (6): 7 controller after invoice save
+2011-10-27T09:29:48+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:29:48+00:00 ERR (3): warehouse is NY
+2011-10-27T09:29:48+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:29:48+00:00 ERR (3): warehouse  NY13470
+2011-10-27T09:29:48+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:29:48+00:00 ERR (3): warehouse is CL
+2011-10-27T09:29:48+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:29:48+00:00 ERR (3): warehouse  CL90001
+2011-10-27T09:29:48+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:29:48+00:00 ERR (3): warehouse is 
+2011-10-27T09:29:48+00:00 ERR (3): 
+2011-10-27T09:29:48+00:00 ERR (3): warehouse  
+2011-10-27T09:30:15+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:30:15+00:00 ERR (3): warehouse is NY
+2011-10-27T09:30:15+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:30:15+00:00 ERR (3): warehouse  NY13470
+2011-10-27T09:30:15+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:30:15+00:00 ERR (3): warehouse is CL
+2011-10-27T09:30:15+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:30:15+00:00 ERR (3): warehouse  CL90001
+2011-10-27T09:30:15+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:30:15+00:00 ERR (3): warehouse is 
+2011-10-27T09:30:15+00:00 ERR (3): 
+2011-10-27T09:30:15+00:00 ERR (3): warehouse  
+
+
+
+====================================================================================================================================================================
+2011-10-27T09:34:07+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:34:07+00:00 ERR (3): warehouse is NY
+2011-10-27T09:34:07+00:00 ERR (3): Array
+(
+    [id] => 1
+    [zip_code] => 13470
+    [title] => NY
+    [description] => New York
+    [street] => de
+    [city] => de
+    [country] => United State
+    [email] => luuthuy205@gmail.com
+    [name] => 
+    [contact_name] => Thuy
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-11 09:58:46
+    [update_time] => 2011-10-11 09:58:46
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:34:07+00:00 ERR (3): warehouse  NY13470
+2011-10-27T09:34:07+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:34:07+00:00 ERR (3): warehouse is CL
+2011-10-27T09:34:07+00:00 ERR (3): Array
+(
+    [id] => 2
+    [zip_code] => 90001
+    [title] => CL
+    [description] => fdsa
+    [street] => fff
+    [city] => fda
+    [country] => fdsa
+    [email] => fds@yahoo.com
+    [name] => 
+    [contact_name] => fdsf
+    [spm] => 0
+    [shipping_method] => 0
+    [created_time] => 2011-10-16 08:09:54
+    [update_time] => 2011-10-16 08:09:54
+    [flat_enable] => 1
+    [table_enable] => 1
+    [free_enable] => 1
+    [ups_enable] => 1
+    [fedex_enable] => 1
+    [usps_enable] => 1
+    [dhl_enable] => 1
+)
+
+2011-10-27T09:34:07+00:00 ERR (3): warehouse  CL90001
+2011-10-27T09:34:07+00:00 ERR (3): des zipcode 68038
+2011-10-27T09:34:07+00:00 ERR (3): warehouse is 
+2011-10-27T09:34:07+00:00 ERR (3): 
+2011-10-27T09:34:07+00:00 ERR (3): warehouse  

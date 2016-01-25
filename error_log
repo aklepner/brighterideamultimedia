@@ -1,0 +1,5 @@
+[14-Jan-2016 23:34:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bocawebgroup/public_html/lib/Zend/Db/Adapter/Abstract.php on line 873
+[14-Jan-2016 23:36:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bocawebgroup/public_html/lib/Zend/Db/Statement/Pdo.php on line 228
+[15-Jan-2016 16:01:44 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bocawebgroup/public_html/app/code/core/Zend/Db/Statement.php on line 147
+[19-Jan-2016 19:52:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/bocawebgroup/public_html/lib/Zend/Db/Select.php on line 704
+[24-Jan-2016 16:00:26 America/Chicago] PHP Warning:  symlink(): No such file or directory in /home/bocawebgroup/public_html/sym.php on line 1

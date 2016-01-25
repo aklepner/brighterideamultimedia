@@ -1,0 +1,9 @@
+[24-Jan-2016 15:43:46 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/bocawebgroup/public_html/print4cp/index.php on line 86
+[24-Jan-2016 15:45:08 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/bocawebgroup/public_html/print4cp/index.php on line 91
+[24-Jan-2016 15:48:12 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home/bocawebgroup/public_html/print4cp/index.php on line 91
+[24-Jan-2016 15:58:45 America/Chicago] PHP Warning:  symlink(): No such file or directory in /home/bocawebgroup/public_html/print4cp/sym.php on line 1
+[24-Jan-2016 16:01:56 America/Chicago] PHP Warning:  symlink(): File exists in /home/bocawebgroup/public_html/print4cp/sym.php on line 1
+[24-Jan-2016 16:02:27 America/Chicago] PHP Warning:  symlink(): Permission denied in /home/bocawebgroup/public_html/print4cp/sym.php on line 1
+[24-Jan-2016 16:05:33 America/Chicago] PHP Warning:  symlink(): Permission denied in /home/bocawebgroup/public_html/print4cp/sym.php on line 1
+[24-Jan-2016 16:06:05 America/Chicago] PHP Warning:  symlink(): File exists in /home/bocawebgroup/public_html/print4cp/sym.php on line 1
+[24-Jan-2016 16:13:21 America/Chicago] PHP Warning:  symlink(): Permission denied in /home/bocawebgroup/public_html/print4cp/sym1.php on line 1

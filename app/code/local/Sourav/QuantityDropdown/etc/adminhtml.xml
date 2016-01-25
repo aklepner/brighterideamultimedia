@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<config>
+ 
+
+    <menu>
+	
+       <simple translate="title" module="sourav_quantitydropdown">
+	   <title>Product Quantity Dropdown</title>
+       <sort_order>50</sort_order>
+			<children>
+			<configuration translate="title" module="sourav_quantitydropdown">
+			<title>Configuration</title>
+			<sort_order>0</sort_order>
+			<action>adminhtml/system_config/edit/section/quantityoptionconfig</action>
+			</configuration>
+			<aboutinformation translate="title" module="sourav_quantitydropdown">
+			<title>Information</title>
+			<sort_order>1</sort_order>
+			<action>adminhtml/system_config/edit/section/information</action>
+			</aboutinformation>
+			
+			
+			</children>
+        </simple>
+    </menu>
+	<acl>
+        <resources>
+            <admin>
+                <children>
+                    <simple translate="title" module="sourav_quantitydropdown">
+					     <title>Simple Product</title>
+                        <sort_order>10</sort_order>
+                        <children>
+                            <configuration translate="title" module="sourav_quantitydropdown">
+                                      <title>Configutation</title>                       
+                                
+                             </configuration>   
+                            <aboutinformation translate="title" module="sourav_quantitydropdown">
+                                      <title>Infomormation</title>                       
+                                
+                             </aboutinformation>       
+                                </children>
+                            </simple>
+                 <system>
+					<children>
+				      <config>
+				         <children>
+			         	<quantityoptionconfig translate="title" module="sourav_quantitydropdown">
+						<title>Quanitity Option Config</title>
+                     	</quantityoptionconfig>
+						 	<information translate="title" module="sourav_quantitydropdown">
+						<title>About Us</title>
+                     	</information>
+						
+							</children>
+							      </config>
+								  </children>
+								  </system>
+					
+					 	
+						
+						</children>
+                    
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,156 @@
+5.19    - Added support for Insurance extension (only with merged rates, no ship separate support as yet)
+5.16	- Fixed issue with gift message support on 1.5
+5.15	- Added support for Shipping Override using main branch
+5.14	- Put in eventPrefix so can see when warehouse deleted, updated logging
+5.13 	- Improved support for extension validation
+5.12	- Added support for configurable user details, requires usa shipping
+6.0.1	- Includes latest common/logger
+6.1	- Includes wsacommon fix to resolve invalid call to downloadable shipping problem
+6.2 	- Qualified on 1.6 magento.
+	Removed separate/oversized references from product attributes/switches - now in dimensional shipping
+6.3 	- Put a change in to prevent order going into processing state when email sent automatically
+	  Updated phtml files to support 1.6
+6.4	- Updated shipment.phtml files inline with Magento 1.6
+6.5 	- Added in suport for multi-origins on UPS (currently without combine ability)
+	  Added in warehouse_shipping_html in sales_order so that can pick up in email templates
+6.6     - Added support for multiple shipment origins for UPS in Dropship
+6.7     - Added support for freight rate
+6.8     - Added support for EE SalesArchive tables to circumvent issue in magento code around syncTables
+6.9	- qualified for magento 1.6.1
+6.10	- Fixed flat catalog for multiple warehouses
+6.11	- Attribute named incorrectly when using DB compatible mode on 1.6 or greater.
+6.12 	- Latest install/Update script is now idompotent. Added Default Warehouse capability
+6.13	- Fixes issue with shipment status and creation.
+6.14    - Fixed issue with shipment status and creation
+6.15    - Fixed issue with shipping methods not being allowed with gift messages switched on for split checkout
+6.16	- Moved away from the flat catalogue.
+6.17    - Added in another check to miss out order options
+6.18	- Added EE1.11 compatible js file.
+7.0	- Refactored code to remove opcheckout.js move, adminhtml files now separate from main adminhtml.
+7.1 	- Fixed issue with bundle products set to ship separately when using parent. Now splits correctly on checkout.
+7.2 	- Fixed issue with displaying shipping methods when DropShip is disabled. Fixed issue of displaying warehouse in orders when DropShip is disabled.
+7.3     - Fixed issue with gift options set to yes under certain circumstances allowing checkout
+7.4	- Added new feature allowing the dispatch notifications to warehouses to be sent post order or post invoice
+7.5	- Added in support for choosing auto create shipments per warehouse. Improve bundle display on admin docs.
+7.8 	- Tidied up freight limiting logic to work with multiple carriers simultaneously
+7.9 	- Tidied checkout output when bundle items are present
+7.10	- Added in support for Handling Matrix
+7.11	- Fixed issue with auto creating shipments
+7.12 	- Tidied up phtml logic
+7.13 	- Improved default warehouse logic and tidied up theme files.
+7.14    - Added fix to stop extension from attempting to calculate rate when a virtual item is in the cart.
+7.15	- Added warehouse switch for sites integrated with MetaPack and field to assign warehouse code
+7.16    - Refactored to pull freight logic into wsafreightcommon
+7.17 	- Refactored the per store enabled checks to ensure when set to disabled in store view no logic is called
+7.18    - Sorted indentation and added check to get config data from freightcommon if freight extension is not found
+7.19 	- Fixed an issue with display of rates in the admin panel view order area
+7.20	- added switch to change unit of weight to display against each item ordered when dropship is configured to always show warehouse item breakdown
+8.0	- Changed to work with latest ant scripts and automatically create combined freight version
+8.1 	- Added support so that default warehouse is set on sales_flat_quote_item.
+	  Fixed email template to set items when using default warehouse. Will also now set delivery type when 1 warehouse instead of using merged text.
+8.2 	- Updated Google Maps API to V3. V2 had bugs and is being deprecated in 2013
+8.3     - Resolved issue around displaying of warehouse value for bundle products in admin views. Also added CSS classes to OnePageCheckout.
+9.0	- Refactored adminhtml and block logic to remove rewrites and as much impact on phtml files as possible. Should protect us against version changes..
+9.2	- Added ability to add shipping override extra info to the quote object. Refactored checkout code to improve the display of products, including bundled items.
+	  Fixed issue with bundled product not splitting into mult-warehouses when useParent set to No.
+10.0    - Moved to community branch. Added support for Address Type extn without needing separate branch
+10.1	- Added support for specifying carrier information on warehouse level for USPS and Fedex when using with Dimensional Shipping
+10.2 	- DROP-9 - Fixed combined shipping rule logic
+10.3    - DROP-17 - Updated to have a new switch so that shipping price calculations for Dropship can be switched off
+10.4	- Updated to include latest Common library files
+10.5    - DROP-21 - Refactored use cart price in calculations logic so that it also uses cart weight
+10.6 	- DROP-23 - Added price limit logic. Will use the default warehouse when price_limit is greater than product total
+10.7    - DROP-24 - Added free shipping text feature
+10.8	- DROP-23 - Improved price_limit logic
+10.9 	- DROP-27 - Reverted "use cart weight" feature
+10.10	- DROP-28 - Added alphabetical sorting of warehouse attributes values
+10.11	- DROP-26 - Fixed allowed methods so if carrier not found no error is thrown
+10.13 	- Re-tagged for Nearest Warehouse
+10.14 	- DROP-20 Re-opened. Wasn't catering for 3 carrier merging where 2 carriers are the same.
+10.15   - DROP-29 Refactored InStock logic.
+10.16	- DROP-31, DROP-32 - Changes to combined logic to not display if combining same carrier, or if price the same
+10.17   - Added modified checkout display for split rates across warehouses
+10.18   - DROP-37 Resolved warehouse display for order items
+10.19	- AS1-Added compatibility for AdminShipping and Freight Extensions
+10.20	- DROP-42 - Improved Freight accessorials in admin
+10.21	- DROP-46 - Updated helper for checking decimal items
+10.22   - DROP-49 - Added new feature to attach PDF to warehouse email
+11.0    - DROP-54 - Integrated with Store Pickup
+11.1    - DROP-56 - Template changes for Use Cart Price setting
+11.2	- DROP-57 - Dropship compatibility with Store Pick-up
+11.2.1  - DROP-39 - Throwing warning due to receiving string rather than a array. Old code was present that should have been removed in refactor
+11.3  - FREIGHT-111 Added the extra fields in the Fedex Freight tab in the warehouse settings
+11.3  - DROP-59 Fixed issue with email not sending to correct warehouse
+12.0  - SHIPMAN-7,DROP-63 Added Dropcommon and bug fixes
+12.1  - SHIPMAN-7,DROP-63 Added Dropcommon and bug fixes
+12.0  - SHIPMAN-7,DROP-63 Added Dropcommon and bug fixes
+12.0  - SHIPMAN-7,DROP-63 Added Dropcommon and bug fixes
+12.0  - SHIPMAN-7,DROP-63 Added Dropcommon and bug fixes
+12.0.1  - New version of Dropcommon
+12.1  - DROP-68 - removed old parameter which caused non freight carriers to display when they shouldnt
+12.2  - DROP-62 Added event that is raised before rates are stored for each warehouse
+12.2.1  - DROP-62 Added event that is raised before rates are stored for each warehouse
+12.2.2  - DROP-62 Added event that is raised before rates are stored for each warehouse
+12.2.4  - Latest common
+12.2.5  - DROP-70 Fixed idempotency on pre 1.6 installation
+13.0  - DROP-71 Fixed upgrade issue in sql file. Updated major version to indicate new Dropcommon Release
+13.0.1  - New version of Dropcommon
+13.0.2  - DROP-72 Fixed view shipments
+13.0.3  - DROP-73 - Zero items appearing in the shipment email or no shipment being created
+13.0.5  - New Dropcommon
+13.1  - DROP-69 Fixed issue with display of warehouse in order when using the super warehouse functionality.
+13.1.7  - DROP-78 Fixed issue with combined rates
+13.1.8  - SHIPMAN-11 - Resolved issue with 1 warehouse assigned to an item ignoring allowed destination
+13.1.9  - DROP-69 Typo on parameter
+13.1.10  - DROP-69 - Improved functionality around functionality when multiple warehouses are present at the cart
+13.1.11  - DROP-81 Fixed Install script for 1.4.1
+13.1.11  - DROP-81 Includes latest Dropcommon
+13.2  - DROP-40 - CIO compatibility Clear caches
+13.2.1  - COMMON-34 - Updated Common
+13.2.2  - DROP-83 latest Dropcommon
+13.2.3  - Updated Common
+13.3  - DROP-87 - Save warehouse details for single origin orders
+13.3.1  - New DropCommon
+13.3.5  - DROP-92 - Added ignore to the inset statement for sql install files
+13.3.6  - DROP-89 - Resolved issue when using cart total price
+13.4  - GI-15 - Added compatibility with Dropship when using checkbox for insurance
+13.5  - GI-15 Added compatibility with DropShip when using checkbox
+13.5.1  - DROP-94 - Resolved SQl Inconsistency
+13.5.2  - DROP-94 - Resolved SQl Inconsistency for older Magento versions
+13.5.3  - New Dropcommon
+13.6  - DROP-99 - Added ability to filter warehouse on region as well as country
+13.7  - DROP-96 - FedEx Hub ID per warehouse
+13.8  - DROP-98 Resolved issue of emails not sending to all warehouses when set to ignore dropship
+13.9  - DROP-101 - Implemented switch to enable/disable
+13.10  - DROP-95 - USPS allowed methods not showing when Dimensional Shipping installed
+13.10.1  - New Dropcommon
+13.10.2  - DROP-103 - Use child SKU of configurables on warehouse shipment
+13.10.3  - DROP-104 - Fixed issue with qty set to 0 when bundled item is in the cart
+13.10.4  - SO-49 Fixed compatibility issue with Shipping Override
+13.11  - FREIGHT-178 - Altered param name for res selector at checkout
+13.11.1  - New Dropcommon
+13.11.2  - COMMON-39 Reverted getProduct() call as had problems on earlier versions of magento
+13.12  - New Dropcommon for DROP-107
+13.12.1  - New Dropcommon
+13.12.2  - New DropCommon
+13.12.3  - New DropCommon
+13.12.4  - New Dropcommon
+13.12.5  - New Dropcommon
+13.12.6  - DROP-113 Resolved issue with wrong address being used on checkout.
+13.12.7  - New Dropcommon
+13.12.8  - Latest Common
+13.13  - DROP-115 Resolved issue with accessory charges not showing with merged rates.
+13.13.1  - New Dropcommon
+13.14  - DROP-119 Added event to ignore methods
+13.14.1  - New Dropcommon
+13.14.2  - New Dropcommon
+13.15  - DROP-124 Moved dropship to be under /admin
+13.15.1  - New Dropcommon
+13.15.2  - New Dropcommon
+13.15.3  - New Dropcommon
+13.15.4  - New Dropcommon
+13.15.5  - DROP-127 Fixed bundle item breakdown on warehouse emails.
+13.15.6  - New Dropcommon
+13.15.7  - DROP-129 Configurable and bundle items were not being processed correctly
+13.15.8  - New Dropcommon and WSA Common
+13.15.9  - Common-52 Admin routing fix

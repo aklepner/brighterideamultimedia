@@ -1,0 +1,135 @@
+<?php
+
+class Concalma_Dropship_Block_Adminhtml_Dropship_Edit_Tab_Form extends Mage_Adminhtml_Block_Widget_Form
+{
+	protected function _prepareForm()
+	{
+		//$form = new Varien_Data_Form(array("encrypt","multipart/form-data"));
+        $form = new Varien_Data_Form(array('id' => 'adddropship', 'action' => $this->getData('action'), 'method' => 'post', 'enctype' => 'multipart/form-data'));
+		$form->setData('enctype','multipart/form-data');
+		$form->setData('id','adddropship');
+		$this->setForm($form);
+		$fieldset = $form->addFieldset('dropship_form', array('legend'=>Mage::helper('dropship')->__('Warehouse  Information')));
+		$fieldset->addField('first_product_id', 'text', array(
+'label' => Mage::helper('dropship')->__('Title'),
+'class' => 'required-entry',
+'required' => true,
+'name' => 'title',
+		));
+
+$fieldset->addField('description', 'text', array(
+'label' => Mage::helper('dropship')->__('Description'),
+'class' => 'required-entry',
+'required' => true,
+'name' => 'description',
+		));
+
+$fieldset->addField('street', 'text', array(
+'label' => Mage::helper('dropship')->__('Origin street'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'street',
+		));
+
+
+$fieldset->addField('city', 'text', array(
+'label' => Mage::helper('dropship')->__('Origin city'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'city',
+		));
+
+
+
+$fieldset->addField('state_code', 'text', array(
+'label' => Mage::helper('dropship')->__('Origin Zip/Postal Code'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'state_code',
+		));
+
+
+$fieldset->addField('zip_code', 'text', array(
+'label' => Mage::helper('dropship')->__('Origin Zip/Postal Code'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'zip_code',
+		));
+
+
+$fieldset->addField('country', 'text', array(
+'label' => Mage::helper('dropship')->__('Country'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'country',
+		));
+
+$fieldset->addField('email', 'text', array(
+'label' => Mage::helper('dropship')->__('Email'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'email',
+		));
+
+$fieldset->addField('contact_name', 'text', array(
+'label' => Mage::helper('dropship')->__('Contact Name'),
+'class' => 'required-entry',
+'required' => false,
+'name' => 'contact_name',
+		));
+
+
+		$fieldset->addField('spm', 'select', array(
+'label' => Mage::helper('dropship')->__('Send Packing Slips to Warehouses Manually'),
+'name' => 'spm',
+'values' => array(
+		array(
+'value' => 1,
+'label' => Mage::helper('dropship')->__('Yes'),
+		),
+		array(
+'value' => 0,
+'label' => Mage::helper('dropship')->__('No'),
+		),
+		),
+		));
+		
+		
+		if ( Mage::getSingleton('adminhtml/session')->getdropshipData() )
+		{
+			$form->setValues(Mage::getSingleton('adminhtml/session')->getdropshipData());
+			Mage::getSingleton('adminhtml/session')->setdripshipData(null);
+		} elseif ( Mage::registry('dropship_data') ) {
+			$form->setValues(Mage::registry('dropship_data')->getData());
+		}
+		return parent::_prepareForm();
+	}
+ public function getFormHtml()
+    {   $html = parent::getFormHtml();
+       
+        $html.= '<script type= "text/javascript" > 
+        document.observe("dom:loaded", function() {
+    // initially hide all containers for tab content
+         document.getElementById("edit_form").setAttribute("enctype","multipart/form-data");
+         document.getElementById("edit_form").setAttribute("onsubmit","submitproduct()");
+         var edit_form = document.getElementById("edit_form");
+         Event.observe(edit_form,"submit",function() { alert("Luu Thuy"); });
+        });
+        function thuy() {
+        //var edit_form = document.getElementById("edit_form");
+        Event.observe($("edit_form"),"submit",function() { alert("Luu Thuy"); });
+        }
+        function submitproduct() {
+        	alert("Luu Thuy");
+        	new Ajax.Request("http://127.0.0.1/magdemo/index.php/admin/catalog_product/save/set/9/type/simple/?product[name]=gift&product[sku]=gift&product[weight]=0&product[status]=1&product[tax_class_id]=0&product[visibility]=1&product[price]=12&product[description]=test&product[short_description]=test&product[stock_data][qty]=10000&product[stock_data][is_in_stock]=1", {
+  method: "get",
+  
+});
+        }
+        </script>;';
+         
+        return $html;
+      
+        
+    }
+}

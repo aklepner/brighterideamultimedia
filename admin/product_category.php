@@ -103,14 +103,14 @@ if(isset($add) || isset($mod)){
 						meta_description = '".mysql_real_escape_string($_POST['meta_description'])."',
 						url_filename = '".mysql_real_escape_string($_POST['url_filename'])."',
 						url_foldername = '".mysql_real_escape_string($_POST['url_foldername'])."'
-					WHERE id = '".$_GET['mod']."'
+					WHERE id = '"130"'
 				", $dbh);
 				$catid = $_GET['mod'];
 			}
 			if(isset($_POST['delete_image']))
 				unlink($base_dir.$catid.".jpg");
 			if(isset($_POST['delete_logo']))
-				unlink($base_dir."logo/".$catid.".jpg");	
+				unlink($base_dir."logo/".$catid.".jpg");
 			if($_FILES[image][name] != ""){
 				if(move_uploaded_file($_FILES['image']['tmp_name'], $base_dir.$catid.".jpg")){
 					chmod($base_dir.$catid.".jpg", 0644);
@@ -121,7 +121,7 @@ if(isset($add) || isset($mod)){
 					chmod($base_dir."logo/".$catid.".jpg", 0644);
 				}
 			}
-			
+
 			if(isset($_POST['delete_form']))
 				unlink(FORM_DIR.$catid.".htm");
 			if($_FILES['form']['name'] != ""){
@@ -201,8 +201,8 @@ if((!isset($_GET['add']) && !isset($_GET['mod'])) || isset($success)){
 			if(mysql_num_rows($results)){
 				print "<div align=\"center\" class=\"error\">Products attached to category!  Please move or delete products first!</div><br>";
 			}else{
-				@unlink($base_dir.$_GET['delete'].".jpg");	
-				@unlink($base_dir."logo/".$_GET['delete'].".jpg");	
+				@unlink($base_dir.$_GET['delete'].".jpg");
+				@unlink($base_dir."logo/".$_GET['delete'].".jpg");
 				mysql_query("delete from product_category where id = '".$_GET['delete']."'");
 				print "<div align=\"center\" class=\"success\">Product Category deleted!</div><br>";
 			}

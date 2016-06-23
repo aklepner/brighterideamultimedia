@@ -103,7 +103,7 @@ if(isset($add) || isset($mod)){
 						meta_description = '".mysql_real_escape_string($_POST['meta_description'])."',
 						url_filename = '".mysql_real_escape_string($_POST['url_filename'])."',
 						url_foldername = '".mysql_real_escape_string($_POST['url_foldername'])."'
-					WHERE id = 130
+					WHERE id = '".$_GET['mod']."'
 				", $dbh);
 				$catid = $_GET['mod'];
 			}

@@ -1,5 +1,5 @@
 <?
-	require_once("/home/databiz/public_html/inc/config.inc");
+	require_once("/home/bocawebgroup/public_html/inc/config.inc");
 	// Base Directory
 	if(preg_match("/^(www\.)?one-write\.com$/",$_SERVER['SERVER_NAME']))
 		define("DOCUMENT_BASE","");

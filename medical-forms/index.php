@@ -1,6 +1,6 @@
 <?
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
-	require_once("inc/config.inc"); 
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
+	require_once("inc/config.inc");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
@@ -27,7 +27,7 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 	</noscript>
 <a href="http://www.medical-forms.com/Prescriptions/Prescriptions-for-AllScripts-Touchscript-NET-ePrescribe-p185.htm"><img src="themeimages/EMRLaser.jpg" width="208" height="250" id="emr"></a>
 	<form method="post" action="https://www.databusinesssystems.com/account/"  id="logonform">
-	
+
 	<h3>Customer Login</h3>
 	Email<br>
 	<input type="text" name="email" ><br>
@@ -36,7 +36,7 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 	<input type="hidden" name="login" value="1"><br>
 <input type="submit" value="Login">
 	</form>
-	
+
 	<!--
 	<h2>We Are Approved</h2>
 	<b><p>We are now authorized by the State of New Jersey to print the new 2015 prescription format. </p>

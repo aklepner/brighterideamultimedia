@@ -1,7 +1,7 @@
 <?
-	require_once("/home/databiz/public_html/one-write/inc/config.inc");
+	require_once("/home/bocawebgroup/public_html/one-write/inc/config.inc");
 	header("Last-Modified: ".gmdate('D, d M Y H:i:s T', getlastmod()));
-	header("Content-Type: text/css");	
+	header("Content-Type: text/css");
 ?>
 
 body {
@@ -47,7 +47,7 @@ a:hover {
 	scrollbar-arrow-color: #000000;
     scrollbar-base-color: #000000;
     scrollbar-face-color: #ffffff;
-	
+
 }
 
 .title {
@@ -120,8 +120,8 @@ a:hover {
 
 HR {
     color: #000000;
-    size: 5px; 
-    width: 95%; 
+    size: 5px;
+    width: 95%;
 	noshade
 }
 
@@ -168,7 +168,7 @@ h1 {
 	color:#FFFFFF;
 }
 
-.success { 
+.success {
 	font-weight:bold;
 	color:green;
 }

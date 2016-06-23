@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/inc/config.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/config.inc");
 ?>
 <table cellpadding="0" id="medhead" cellspacing="0" border="0" width="900" align="center">
 <tr>
@@ -37,7 +37,7 @@ function has_cat_kids($parent=0)
 		$row = mysql_fetch_assoc($results);
 		$num = ($row['num_kids'] + 0);
 	}
-	
+
 	return (($num > 0) ? true : false);
 }
 
@@ -47,7 +47,7 @@ function get_cats($parent=0){
 		SELECT
 			m.id,
 			m.name,
-			
+
 			c.name AS product_name,
 			c.url_filename AS product_fname,
 			c.url_foldername AS product_dname,
@@ -63,7 +63,7 @@ function get_cats($parent=0){
 			l.name AS link_name,
 			l.url_filename AS link_fname,
 			l.url_foldername AS link_dname,
-			
+
 			m.type,
 			m.type_id
 		FROM
@@ -83,7 +83,7 @@ function get_cats($parent=0){
 		ORDER BY m.sort DESC
 	', $dbh)
 		or error_log("MySQL Error: ".mysql_error($dbh)." in ".__FILE___." on line ".__LINE__);
-	
+
 	if(mysql_num_rows($results)){
 		while($row = mysql_fetch_assoc($results)){
 			$typeTxt = '';
@@ -107,7 +107,7 @@ function get_cats($parent=0){
 				$tmp_seo_name = $row[$row['type'] . '_name'];
 				$tmp_seo_fname = $row[$row['type'] . '_fname'];
 				$tmp_seo_dname = $row[$row['type'] . '_dname'];
-				
+
 				$urlPath = SEO_format_url($row['type_id'], $row['type'], $tmp_seo_name, $tmp_seo_fname, $tmp_seo_dname);
 				$isParent = has_cat_kids($row['id']);
 				if($isParent)

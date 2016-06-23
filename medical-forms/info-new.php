@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
 	require_once("inc/config.inc");
 	require_once("../inc/dbi.inc");
 	$seo__page_title = '';
@@ -7,18 +7,18 @@
 	$seo__meta_desc = '';
 	$seo__url_fname = '';
 	$seo__url_dname = '';
-	
+
 	if(isset($_POST['name']) && isset($_POST['data'])){
 		$name = $_POST['name'];
 		$date = $_POST['data'];
 	}else{
 		$db = new dbi();
-	
+
 		$db->query("select * from info where id = '".$_GET[id]."' and site = '".SITE."'");
 		if($db->numrows()){
 			$name = $db->result("info.name");
 			$data = $db->result("info.data");
-			
+
 			$seo__page_title = $db->result("info.page_title");
 			$seo__meta_kws = $db->result("info.meta_keywords");
 			$seo__meta_desc = $db->result("info.meta_description");
@@ -30,10 +30,10 @@
 			exit;
 		}
 	}
-	
+
 	$newURL = DOCUMENT_BASE . '/' . SEO_format_url($_GET['id'], 'info', $name, $seo__url_fname, $seo__url_dname);
 	$SEO_self_URL = ((DOCUMENT_BASE == '') ? 'http://www.medical-forms.com' : 'http://www.databusinesssystems.com') . $newURL;
-	
+
 	if(strpos($_SERVER['REQUEST_URI'], $newURL) === FALSE)
 	{
 		header($_SERVER['SERVER_PROTOCOL'] . ' 301 Moved Permanently');
@@ -57,7 +57,7 @@ $category_title_names = '';
 if($seo__page_title == '' || $seo__page_title == $name)
 {
 	$tmp = find_menu_parent('info', $_GET['id'], SITE);
-	
+
 	while(is_array($tmp) && $tmp['id'] > 0)
 	{
 		// We know $tmp is valid
@@ -68,13 +68,13 @@ if($seo__page_title == '' || $seo__page_title == $name)
 			$tmp['name'] = $tmp['info_name'];
 		else if($tmp['samp_name'] && $tmp['type'] == 'sample')
 			$tmp['name'] = $tmp['samp_name'];
-		
+
 		// Build in reverse [root cat, next cat, next cat]
 		//$category_title_names = ', ' . $tmp['name'] . $category_title_names;
 		// Build in order [last cat, parent cat, parent cat]
 		if($tmp['name'] != '')
 			$category_title_names .= ', ' . $tmp['name'];
-		
+
 		// Figure out if there are more categories
 		if($tmp['parent'] > 0)
 		{

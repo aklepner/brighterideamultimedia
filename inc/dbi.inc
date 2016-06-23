@@ -1,10 +1,10 @@
 <?
-require_once("/home/databiz/public_html/inc/config.inc");
+require_once("/home/bocawebgroup/public_html/inc/config.inc");
 
 class dbi{
 	// Initialize Variables
 	var $link,$queryresource="",$row="",$loop="";
-	
+
 	// Constructor
 	function dbi(){
 		global $dbh;
@@ -15,16 +15,16 @@ class dbi{
 		if(!$this->link)
 			die( "Couldn't connect to Database Server\n" );
 	}
-	
+
 	// This will be replaced once the Zend 2 Engine comes out
 	function destruct(){
 		return mysql_close($this->link);
 	}
-	
+
 	// Query Function
 	function query($myquery){
 		$this->row = $this->loop = 0;
-		$this->queryresource = mysql_query($myquery, $this->link) 
+		$this->queryresource = mysql_query($myquery, $this->link)
 			or die("Failed Query: ".mysql_error());
 		// check to see if it works
 		if(!$this->queryresource)
@@ -40,18 +40,18 @@ class dbi{
 			return mysql_affected_rows($this->link);
 		}
 	}
-	
-	// This will return the query resource if you need to do some custom 
+
+	// This will return the query resource if you need to do some custom
 	// routine not specfied in the DBI
 	function getqueryresource(){
 		return $this->queryresource;
 	}
-	
+
 	// Returns the result of a column in the query statement
 	function result($column){
 		return mysql_result($this->queryresource,$this->row,$column);
 	}
-	
+
 	// Loop through the returned results.  You can use result() within the loop.
 	// To get the results of a column on the current row.
 	function loop(){
@@ -69,7 +69,7 @@ class dbi{
 			return FALSE;
 		}
 	}
-	
+
 	// Returns the number of rows in a select statement
 	function numrows(){
 		if(is_resource($this->queryresource))
@@ -77,7 +77,7 @@ class dbi{
 		else
 			return 0;
 	}
-	
+
 	// Returns the currentrow result() will return
 	function currentrow(){
 		return $this->row;

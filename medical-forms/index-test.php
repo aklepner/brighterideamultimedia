@@ -1,6 +1,6 @@
 <?
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
-	require_once("inc/config.inc"); 
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
+	require_once("inc/config.inc");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 

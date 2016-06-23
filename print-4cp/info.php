@@ -1,12 +1,12 @@
-<? 
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
 	require_once("inc/config.inc");
 	$seo__page_title = '';
 	$seo__meta_kws = '';
 	$seo__meta_desc = '';
 	$seo__url_fname = '';
 	$seo__url_dname = '';
-	
+
 	if(isset($_POST['name']) && isset($_POST['data'])){
 		$name = $_POST['name'];
 		$date = $_POST['data'];
@@ -15,7 +15,7 @@
 		if(mysql_num_rows($results)){
 			$name = mysql_result($results, 0, "name");
 			$data = mysql_result($results, 0, "data");
-			
+
 			$seo__page_title = mysql_result($results, 0, "page_title");
 			$seo__meta_kws = mysql_result($results, 0, "meta_keywords");
 			$seo__meta_desc = mysql_result($results, 0, "meta_description");
@@ -27,9 +27,9 @@
 			exit;
 		}
 	}
-	
+
 	$newURL = DOCUMENT_BASE . '/' . SEO_format_url($_GET['id'], 'info', $name, $seo__url_fname, $seo__url_dname);
-	
+
 	//Redirect to new URL
 	$newURL = ((DOCUMENT_BASE == '') ? 'http://www.print-4cp.com' : 'http://www.databusinesssystems.com') . $newURL;
 	header($_SERVER['SERVER_PROTOCOL'] . ' 301 Moved Permanently');

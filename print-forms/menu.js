@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/print-forms/inc/config.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/print-forms/inc/config.inc");
 	header("Content-Type: application/x-javascript");
 ?>
 // Open/Close single elements

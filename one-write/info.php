@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
 	require_once("inc/config.inc");
 	require_once("../inc/dbi.inc");
 	if(isset($_POST['name']) && isset($_POST['data'])){
@@ -7,7 +7,7 @@
 		$date = $_POST['data'];
 	}else{
 		$db = new dbi();
-	
+
 		$db->query("select * from info where id = '".$_GET[id]."' and site = '".SITE."'");
 		if($db->numrows()){
 			$name = $db->result("info.name");

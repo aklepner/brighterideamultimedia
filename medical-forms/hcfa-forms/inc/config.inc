@@ -1,5 +1,5 @@
 <?
-	require("/home/databiz/public_html/inc/config.inc");
+	require("/home/bocawebgroup/public_html/inc/config.inc");
 	// Base Directory
 	if(preg_match("/^(www\.)?(hcfa|medical)-forms.com$/",$_SERVER['SERVER_NAME']))
 		define("DOCUMENT_BASE","");

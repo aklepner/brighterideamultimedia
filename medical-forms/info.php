@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
 	require_once("inc/config.inc");
 	require_once("../inc/dbi.inc");
 	$seo__page_title = '';
@@ -7,18 +7,18 @@
 	$seo__meta_desc = '';
 	$seo__url_fname = '';
 	$seo__url_dname = '';
-	
+
 	if(isset($_POST['name']) && isset($_POST['data'])){
 		$name = $_POST['name'];
 		$date = $_POST['data'];
 	}else{
 		$db = new dbi();
-	
+
 		$db->query("select * from info where id = '".$_GET[id]."' and site = '".SITE."'");
 		if($db->numrows()){
 			$name = $db->result("info.name");
 			$data = $db->result("info.data");
-			
+
 			$seo__page_title = $db->result("info.page_title");
 			$seo__meta_kws = $db->result("info.meta_keywords");
 			$seo__meta_desc = $db->result("info.meta_description");
@@ -30,9 +30,9 @@
 			exit;
 		}
 	}
-	
+
 	$newURL = DOCUMENT_BASE . '/' . SEO_format_url($_GET['id'], 'info', $name, $seo__url_fname, $seo__url_dname);
-	
+
 	//Redirect to new URL
 	$newURL = ((DOCUMENT_BASE == '') ? 'http://www.medical-forms.com' : 'http://www.databusinesssystems.com') . $newURL;
 	header($_SERVER['SERVER_PROTOCOL'] . ' 301 Moved Permanently');

@@ -1,5 +1,5 @@
 <?
-	require_once("/home/databiz/public_html/inc/config.inc");
+	require_once("/home/bocawebgroup/public_html/inc/config.inc");
 	define('USE_SEO_URL_REWRITES', true);
 	// Base Directory
 	if(preg_match("/^(www\.)?print-forms.com$/",$_SERVER['SERVER_NAME']))

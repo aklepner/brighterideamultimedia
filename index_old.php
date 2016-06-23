@@ -1,6 +1,6 @@
 <?
-	require_once("/home/databiz/public_html/inc/ad_track.inc");
-	require_once("inc/config.inc"); 
+	require_once("/home/bocawebgroup/public_html/inc/ad_track.inc");
+	require_once("inc/config.inc");
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
@@ -27,7 +27,7 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 	</noscript>
 <a href="http://www.medical-forms.com/Prescriptions/Prescriptions-for-AllScripts-Touchscript-NET-ePrescribe-p185.htm"><img src="themeimages/EMRLaser.jpg" width="208" height="250" id="emr"></a>
 	<form method="post" action="https://www.databusinesssystems.com/account/"  id="logonform">
-	
+
 	<h2>Customer Login</h2>
 	Email<br>
 	<input type="text" name="email" ><br>
@@ -36,7 +36,7 @@ AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/
 	<input type="hidden" name="login" value="1"><br>
 <input type="submit" value="Login">
 	</form>
-	
+
 	<h1>Welcome to Medical-Forms.com</h1>
 	<p>Our parent company, <a href="http://www.databusinesssystems.com">Data Business Systems, Inc.</a> is authorized by the States of New Jersey, Kentucky &amp; Indiana for the distribution of Prescription Pads.<br>
 	    <br>

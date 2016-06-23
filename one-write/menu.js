@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/one-write/inc/config.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/one-write/inc/config.inc");
 	header("Content-Type: application/x-javascript");
 ?>
 function P7_TMenu(b,og) { //v2.5 by Project Seven Development(PVII)

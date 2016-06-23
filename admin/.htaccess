@@ -7,7 +7,7 @@
 
 
 
-AuthUserFile    /home/databiz/public_html/admin/.htpasswd
+AuthUserFile    /home/bocawebgroup/public_html/admin/.htpasswd
 AuthName        "Restricted"
 AuthType        Basic
 

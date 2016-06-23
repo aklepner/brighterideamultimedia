@@ -1,5 +1,5 @@
-<? 
-	require_once("/home/databiz/public_html/inc/config.inc");
+<?
+	require_once("/home/bocawebgroup/public_html/inc/config.inc");
 ?>
 <table width="900" cellpadding="0" cellspacing="0" align="center" style="background-color:#FFFFFF;">
 <tr style="background-color:#000000;"><td colspan="2"><div style="text-align:right;color:#FFFFFF;"><b>Customer Service (800) 778-6247</b><br><a href="<?=DOCUMENT_BASE?>/contact.php" style="color:#FFFFFF;">Contact</a> &middot; <a href="<?=DOCUMENT_BASE?>/privacy.php" style="color:#FFFFFF;">Privacy</a> &middot; <a href="<?=DOCUMENT_BASE?>/returns.php" style="color:#FFFFFF;">Returns</a> &middot; <a href="<?=DOCUMENT_BASE?>/cancellations.php" style="color:#FFFFFF;">Cancellations</a> &middot; <a href="https://www.databusinesssystems.com/account/" style="color:#FFFFFF;">Customer Login</a></div></td></tr>
@@ -18,7 +18,7 @@ function get_cats($parent=0){
 				print "<div><a href=\"#\" onClick=\"P7_TMenu(this);return false\">".$row['name']."</a>\n";
 				get_cats($row['id']);
 				print "</div>\n";
-			}		
+			}
 		}
 	}
 }

@@ -1,7 +1,7 @@
 <?
-	require_once("/home/databiz/public_html/medical-forms/inc/config.inc");
+	require_once("/home/bocawebgroup/public_html/medical-forms/inc/config.inc");
 	header("Last-Modified: ".gmdate('D, d M Y H:i:s T', getlastmod()));
-	header("Content-Type: text/css");	
+	header("Content-Type: text/css");
 ?>
 
 body{
@@ -12,7 +12,7 @@ body{
 	font-size: 12px;
 }
 
-td, div, p{ 
+td, div, p{
 	color: #000000;
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 12px;

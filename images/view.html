@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>View Image</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body {
+			background-color:#d6d6d6;
+			margin:5px;
+		}
+	</style>
+	<script type="text/javascript" language="javascript">
+		function resize(img){
+			photo = new Image;
+			photo.src = (img);
+			window.resizeTo(photo.width+40,photo.height+80);
+			window.focus();
+		}
+	</script>
+</head>
+
+<body onload="resize('<?=$_GET['image']?>')">
+<? if(is_file($_GET['image'])){ ?>
+<div style="margin:10px;"><a href="javascript:window.close();"><img src="<?=$_GET['image']?>" alt="Close Window" style="border:1px solid #000066;background-color:#FFFFFF;" /></a></div>
+<? }else{ ?>
+<script>window.close();</script>
+<? } ?>
+</body>
+</html>

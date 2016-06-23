@@ -1,13 +1,13 @@
 <?
-	require_once("../inc/config.inc"); 
-	include("../inc/dbi.inc");
+	require_once("http://bocawebgroup.com/inc/config.inc");
+	include("http://bocawebgroup.com/inc/dbi.inc");
 	if(isset($_GET['setsite']))
 		$results = mysql_query("select * from site where id = '".$_GET['setsite']."'");
 	elseif(isset($_COOKIE['site_admin']))
 		$results = mysql_query("select * from site where id = '".$_COOKIE['site_admin']."'");
 	else
 		$results = mysql_query("select * from site where id = '1'");
-		
+
 	$row = mysql_fetch_assoc($results);
 	define("SITE",$row['id']);
 	define("DOCUMENT_BASE",$row['document_base']);
@@ -31,10 +31,10 @@
 <a href="warehouse.php" class="menu">Warehouses</a><br><br>
 <br><div align="center" style="font-weight:bold;color:white;">Site:<br><select name="site" onChange="location.href='<?
 	if($_SERVER['PHP_SELF'] == "/admin/product.php" && !isset($_GET['setsite'])){
-		print "product.php?";  
-		if($_SERVER['QUERY_STRING'] != "") 
-			print $_SERVER['QUERY_STRING']."&"; 
-	}else 
+		print "product.php?";
+		if($_SERVER['QUERY_STRING'] != "")
+			print $_SERVER['QUERY_STRING']."&";
+	}else
 		print "index.php?"; ?>setsite='+this.value;"><?
 	$results = mysql_query("select * from site", $dbh);
 	while($row = mysql_fetch_assoc($results)){

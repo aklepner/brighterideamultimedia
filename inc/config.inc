@@ -1,18 +1,18 @@
-<?	
+<?
 // Store all Configuration Variables
 // Shipping Options
-$ship_type = array( 
-	"GND" => "Ground", 
-	"3DS" => "3 Day Select", 
-	"2DA" => "2nd Day Air", 
+$ship_type = array(
+	"GND" => "Ground",
+	"3DS" => "3 Day Select",
+	"2DA" => "2nd Day Air",
 	"1DA" => "Next Day Air"
 );
 
 // Connect to Database Server
-$dbh = mysql_connect("localhost", "databiz_2", "L5mdjAF2")
+$dbh = mysql_connect("localhost", "bocawebg_dbs", "dbs123")
         or die("Couldn't connect to Database Server!\n");
 // Select Default Database
-mysql_select_db("databiz_0612", $dbh) or die("Couldn't open Database!\n");
+mysql_select_db("bocawebg_newdbs", $dbh) or die("Couldn't open Database!\n");
 
 function parse_dynamic($data){
 	$data = preg_replace("/\<get_product\=([0-9]+)\>/e", "get_product('\\1')", $data);
@@ -26,7 +26,7 @@ function find_menu_parent($menu_type, $menu_type_id, $site_id, $parent_id = -1)
 {
 	global $dbh;
 	$results = NULL;
-	
+
 	// Can skip looking up the item if we already know the parent_id (aka pass a value greater than -1)
 	if($parent_id >= 0)
 	{
@@ -88,7 +88,7 @@ function find_menu_parent($menu_type, $menu_type_id, $site_id, $parent_id = -1)
 		$row = mysql_fetch_assoc($results);
 		return $row;
 	}
-	
+
 	return false;
 }
 
@@ -96,7 +96,7 @@ function find_menu_parent($menu_type, $menu_type_id, $site_id, $parent_id = -1)
 function SEO_load_url($id, $type)
 {
 	global $dbh;
-	
+
 	//$id += 0; // affiliate is not a number
 	$use_num = false;
 	if(is_numeric($id))
@@ -140,7 +140,7 @@ function SEO_load_url($id, $type)
 	}
 	if($type != 'affiliate')
 		$id += 0;
-	
+
 	$q = '
 		SELECT
 			pg.id,
@@ -154,7 +154,7 @@ function SEO_load_url($id, $type)
 			AND pg.' . $dbid . ' = \'' . $id . '\'
 		LIMIT 1
 	';
-	
+
 	$results = mysql_query($q, $dbh);
 	if(!mysql_num_rows($results) && $type == 'affiliate')
 	{
@@ -175,7 +175,7 @@ function SEO_load_url($id, $type)
 		';
 		$results = mysql_query($q, $dbh);
 	}
-	
+
 	if(mysql_num_rows($results))
 	{
 		$row = mysql_fetch_assoc($results);
@@ -184,7 +184,7 @@ function SEO_load_url($id, $type)
 			return SEO_format_url($row['id'], $type, $row['name'], $row['url_filename'], $row['url_foldername']);
 		}
 	}
-	
+
 	return '';
 }
 
@@ -223,10 +223,10 @@ function SEO_format_url($id, $type, $name, $fName = '', $foldName = '')
 	}
 	if($type != 'affiliate')
 		$id += 0;
-	
+
 	if(!$id)
 		return '';
-	
+
 	if($fName != '')
 	{
 		$tmpURL = $fName . '-' . $urlID . $id;
@@ -235,14 +235,14 @@ function SEO_format_url($id, $type, $name, $fName = '', $foldName = '')
 	{
 		$tmpURL = cleanforurl2($name) . '-' . $urlID . $id;
 	}
-	
+
 	if($foldName != '')
 	{
 		$tmpURL = $foldName . '/' . $tmpURL;
 	}
-	
+
 	$tmpURL .= '.htm';
-	
+
 	return $tmpURL;
 }
 
@@ -261,25 +261,25 @@ function getfoldersfromurl2($surl)
 }
 
 function upsrate($origin, $destination, $weight, $service = "GND") {
-   switch(strtoupper($service)){ 
-        case "1DA":            
-          $service = "01"; 
-          break;          
-        case "2DA":            
-          $service = "02"; 
+   switch(strtoupper($service)){
+        case "1DA":
+          $service = "01";
           break;
-        case "3DS":            
-          $service = "12"; 
-          break; 
-        default:            
-          $service = "03"; 
+        case "2DA":
+          $service = "02";
           break;
-    } 
+        case "3DS":
+          $service = "12";
+          break;
+        default:
+          $service = "03";
+          break;
+    }
 	$AccessLicenseNumber = 'CBFF20DE64554C8D'; // Your license number
 	$UserId = 'cbartow'; // Username
 	$Password = 'my*ups'; // Password
 	$ShipperNumber = ''; // Your UPS shipper number
-	
+
    	$data ="<?xml version=\"1.0\"?>
     	<AccessRequest xml:lang=\"en-US\">
     		<AccessLicenseNumber>$AccessLicenseNumber</AccessLicenseNumber>
@@ -314,11 +314,11 @@ function upsrate($origin, $destination, $weight, $service = "GND") {
 				    <ResidentialAddress/>
     			</Address>
     		</ShipTo>
-			<ShipFrom>  
-			<Address>  
-			    <PostalCode>$origin</PostalCode>  
-			    <CountryCode>US</CountryCode>  
-			</Address>  
+			<ShipFrom>
+			<Address>
+			    <PostalCode>$origin</PostalCode>
+			    <CountryCode>US</CountryCode>
+			</Address>
 		    </ShipFrom>
     		<Service>
     			<Code>$service</Code>
@@ -351,7 +351,7 @@ function upsrate($origin, $destination, $weight, $service = "GND") {
     	$result=curl_exec ($ch);
 		// echo "<pre>".htmlentities($result)."</pre>";
 		$xml = simplexml_load_string(strstr($result, '<?'));
-		
+
     curl_close($ch);
 	return (string) $xml->RatedShipment->TotalCharges->MonetaryValue;
 }

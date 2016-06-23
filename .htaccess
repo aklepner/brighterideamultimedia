@@ -1,0 +1,17 @@
+suPHP_ConfigPath /home/databiz/public_html
+<ifmodule mod_expires.c>
+  <filesmatch "\.(jpg|gif|png|js|css)$">
+       ExpiresActive on
+       ExpiresDefault "access plus 2 weeks"
+   </filesmatch>
+</ifmodule>
+
+ErrorDocument 404 /404.php
+
+Options -Indexes
+RewriteEngine On
+RewriteRule ^contact.php$ /contact.php [R=301,L]
+RewriteCond %{REQUEST_URI} !/5E4C8E855AE8965BD630B4511B995936\.txt
+RewriteRule ^status/([0-9]+)/?$ /account/status.php?id=$1 [L]
+
+RewriteRule ^affiliates.html$ /affiliates.php [R=301,L]

@@ -1,0 +1,39 @@
+<?
+	require_once("../inc/config.inc");
+	session_start();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Order Status - Data Business Systems</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+<?	include("../inc/header.inc"); ?>
+<h1>Order Status</h1>
+<?
+if($_GET['id'] && is_numeric($_GET['id'])){
+	$results = mysql_query("SELECT o.id, a.email, o.datetime FROM orders o JOIN account a ON a.id = o.account WHERE o.id = '".mysql_real_escape_string($_GET['id'])."'", $dbh);
+	if(mysql_num_rows($results)){
+		$row = mysql_fetch_assoc($results);
+		if($row['datetime']+(24*3600) > time()){
+			echo "<div style=\"text-align:center;margin:25px 0;\"><b>Since this order was just placed, it is not in our system yet and we cannot provide tracking.<br />Please try back again after 24 hours.</b></div>";
+		}else{
+			$from = "<".$row['email'].">";
+			$header = "Return-Path: $from\r\nFrom: $from\r\nReply-To: $from";
+			$message = "The following user would like the status of their order:\n\n";
+			$message .= "https://www.databusinesssystems.com/admin/order.php?id=".$row['id'];
+			mail("jk@databusinesssystems.com,lh@databusinesssystems.com,alex@databusinesssystems.com", "Order Status (#".$row['id'].")", wordwrap($message), $header);
+			echo "<div style=\"text-align:center;margin:25px 0;\"><b>A customer service representative will reply back by e-mail within 24 hours with the status of your order.<br />Stock products usually ship within 24-72 hours.  Custom printed products ship within 7 to 10 business days.</b></div>";
+		}
+	}
+}
+?>
+
+<? include("../inc/footer.inc"); ?>
+
+</body>
+</html>

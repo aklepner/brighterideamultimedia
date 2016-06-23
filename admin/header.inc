@@ -53,11 +53,9 @@
 <? if(!preg_match("/^\/admin\/customer\.php/",$_SERVER['REQUEST_URI'])) print "<br>"; ?>
 
 <?php
-ini_set('error_reporting', E_ALL);
-//ini_set('display_errors', 'On');  //On or Off
 
-ini_set('display_startup_errors',1);
-ini_set('display_errors',1);
-error_reporting(-1);
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
 
 ?>

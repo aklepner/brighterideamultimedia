@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <modules>
-        <AccessShop_ThemeOptions>
-            <active>true</active>
-            <codePool>local</codePool>
-        </AccessShop_ThemeOptions>
-    </modules>
-</config> 

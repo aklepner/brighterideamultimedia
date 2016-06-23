@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config>
-     <modules>
-        <Sourav_QuantityDropdown>
-            <active>true</active>
-            <codePool>local</codePool>
-        </Sourav_QuantityDropdown>
-     </modules>
-</config>

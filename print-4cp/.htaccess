@@ -1,0 +1,35 @@
+AddType application/x-httpd-php .html .js .css
+
+ErrorDocument 404 /404.php
+
+
+RewriteEngine On
+
+# Original Pages
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(link|info|sample|product)/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1%2.php?id=%3&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)affiliate/([0-9]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?id=%2 [L]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)affiliate/([^\/]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?aff_name=%2 [L]
+
+# New Pages
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-p([0-9]+)\.htm$ [NC]
+RewriteRule .* %1product-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-l([0-9]+)\.htm$ [NC]
+RewriteRule .* %1link-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-i([0-9]+)\.htm$ [NC]
+RewriteRule .* %1info-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-s([0-9]+)\.htm$ [NC]
+RewriteRule .* %1sample-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-a([0-9]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-4cp/|/)(.*)-a([0-9A-Za-z]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?aff_name=%3 [L,QSA]

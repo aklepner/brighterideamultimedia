@@ -1,0 +1,356 @@
+
+body {
+	background-color: #003A83;
+	color: #000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:0;
+}
+
+div,p,table {
+	font-size:12px;
+}
+
+p { margin:10px 15px 20px 15px; line-height:1.4em;}
+
+.tdcolor{
+	font-weight: bold;
+	color: #000000;
+}
+
+
+a {
+	color:#003A83;
+	
+}
+
+a:hover {
+	color: #000000;
+}
+
+#topnav {
+	background-image:url(https://www.databusinesssystems.com/print-4cp/images/nav_bkgd.png);
+	line-height:40px;
+	text-align:center;
+	color:white;
+	font-size:14px;
+}
+
+#topnav span {
+	margin:5px 15px;
+}
+
+#topnav a {
+	color:#fff;
+	text-decoration: none;
+}
+
+#topnav a:hover {
+	text-decoration:underline;
+}
+
+
+.top_menu { 
+	text-align:right;
+	color:#666666;
+	font-weight:bold; 
+	padding:4px;
+	font-size:14px;
+}
+
+.top_menu a {
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.smalltext {
+	font-size : 12px;
+}
+
+
+.formscroll {
+	scrollbar-arrow-color: #000000;
+    scrollbar-base-color: #000000;
+    scrollbar-face-color: #ffffff;
+	
+}
+
+.title {
+	font-size : 24px;
+	font-weight : bold;
+	font-style : italic;
+}
+
+.smallhead {
+	font-size : 10px;
+}
+
+.smbold {
+	font-size : 10px;
+	font-weight : bold;
+}
+
+.regbold {
+	font-size : 12px;
+	font-weight : bold;
+}
+
+.medbold {
+	font-size : 15px;
+	font-weight : bold;
+	color: #5c7594;
+}
+
+.medboldc{
+	font-size : 15px;
+	font-weight : bold;
+	color: #5c7594;
+}
+
+.medboldw{
+	font-size : 15px;
+	font-weight : bold;
+	color: #ffffff;
+}
+
+
+.bigbold {
+	font-size : 18px;
+	font-weight : bold;
+}
+
+.bigboldc  {
+	font-size : 17px;
+	font-weight : bold;
+	color: #006262;
+}
+
+.bigboldw {
+	font-size : 16px;
+	font-weight : bold;
+	color: #ffffff;
+}
+
+.smboldw {
+	font-size : 13px;
+	font-weight : bold;
+	color: #ffffff;
+}
+
+.smboldy {
+	font-size : 13px;
+	font-weight : bold;
+	color: #ffff33;
+}
+
+HR {
+    color: #000000;
+    size: 5px; 
+    width: 95%; 
+	noshade
+}
+
+.footer {
+	font-size : 10px;
+}
+
+.product_light {
+	background-color:#D8D8D8;
+}
+
+.product_dark {
+	background-color:#EAEAEA;
+}
+
+.bar {
+	background-color: #003A83;
+	color:#FFFFFF;
+}
+
+h1 {
+	font-size : 22px;
+	font-weight : bold;
+	text-align : center;
+	color:#003A83;
+	padding:5px 10px;
+}
+
+h2 {
+	font-size : 16px;
+	font-weight : bold;
+	text-align : center;
+	color:#003A83;
+	padding: 4px 10px;
+}
+
+.title_bar {
+	background-color : #003A83;
+	font-size : 18px;
+	font-weight : bold;
+	text-align : center;
+	color:#FFFFFF;
+}
+
+.success { 
+	font-weight:bold;
+	color:green;
+}
+
+.error {
+	font-weight:bold;
+	color:red;
+}
+
+/*Rest of this is for Menu System*/
+
+/*Control DIV for expand all and collapse all links*/
+#p7TMctrl {
+	margin: 0 0 0 0;
+	font-size: 10px;
+	display: none;
+	/*/*/display: block; /* */
+}
+#p7TMctrl a:link {
+	color: white;
+}
+#p7TMctrl a:visited {
+	color: white;
+}
+#p7TMctrl a:hover {
+	color: blue;
+}
+
+/*Sets line-height of all top-level menuitems*/
+#p7TMnav div {
+	line-height: 1.5em;
+}
+/*Sets line-height of all other menuitems*/
+/*second level menuitem divs and lower -Cascades to lower levels-*/
+/*Sets left margin to .8em establishing a fluid cascading indent*/
+#p7TMnav div div {
+	line-height: 1.2em;
+}
+
+/*Sets background color and border around the menu DIV*/
+#p7TMnav {
+	display:block;
+}
+
+/*The Link style for top-level menuitems and is read by all browsers*/
+#p7TMnav div a {
+	color: #fff;
+	font-size: 12px;
+	border-bottom:2px solid white;
+}
+/*The Link style for top-level menuitems hidden from Netscape 4*/
+#p7TMnav div a, #p7TMnav div a:visited {
+	display: block;
+	margin:0;
+	text-decoration: none;
+	background-color: #003A83;
+	color:#FFFFFF;
+	font-size: 12px;
+	padding:4px;
+}
+#p7TMnav div a:hover {
+	background-color: #333;
+}
+
+/*The Link and visited styles combined for second-level menuitems*/
+#p7TMnav div div a, #p7TMnav div div a:visited {
+	color: #000000;
+	background-color: #FFFFFF;
+	display:block;
+	padding-left:14px;
+	font-size: 11px;
+}
+#p7TMnav div div a:hover {
+	color:black;
+	background-color: #ccc;
+}
+
+/*The Link style for third-level menuitems and lower*/
+/*To set a specific style for the fourth level, add a div to the selector*/
+/*Fourth-level example syntax: p7TMnav div div div div a {declaration}*/
+#p7TMnav div div div a, #p7TMnav div div div a:visited {
+	display:block;
+	padding-left:30px;
+	background-color:#d8d8e8;
+	font-size: 10px;
+}
+
+#p7TMnav div div div a:hover {
+	color:#FFFFFF;
+	background-color: #b9b9b9;
+	font-size: 9px;
+}
+
+#p7TMnav div div div div a, #p7TMnav div div div div a:visited {
+	display:block;
+	padding-left:45px;
+	color:#FFFFFF;
+	background-color: #5c7594;
+}
+
+#p7TMnav div div div div a:hover {
+	color:#000000;
+	background-color: transparent;
+}
+
+#p7TMnav div div div div div a, #p7TMnav div div div div div a:visited {
+	display:block;
+	padding-left:60px;
+	color:#000000;
+	background-color:#FFFF41;
+}
+
+#p7TMnav div div div div div a:hover {
+	color:#FFFFFF;
+	background-color: transparent;
+}
+
+/*rules programatically assigned to parent links when image-based plus and minus option is selected. The padding on the 4 following rules supercedes (via !important) the padding on the p7TMnav div a selector when you've chosen the option to use images for the plus and minus signs*/
+.p7plusmark {
+	background-repeat: no-repeat;
+	background-image: url(images/p7t_plus.gif);
+	background-position: 8px 50%;
+}
+.p7minusmark {
+	background-repeat: no-repeat;
+	background-image: url(images/p7t_minus.gif);
+	background-position: 8px 50%;
+}
+
+/*rule programatically assigned to child links when image-based plus and minus option is selected*/
+.p7defmark {
+	background-image:  none;
+}
+
+/*rules programatically assigned to page link correesponding to current page (You are Here)*/
+a.p7currentmark {
+	font-weight: bold;
+	color: #FFFFFF !important;
+	background-color: #b9b9b9 !important;
+}
+
+.menuRepeatList
+{
+	font-size: 14px;
+	font-weight: normal;
+}
+.menuRepeatList a, .menuRepeatList a:link, .menuRepeatList a:visited, .menuRepeatList a:active, .menuRepeatList a:hover
+{
+	font-weight: normal;
+}
+.menuRepeatListHeading
+{
+	font-size: 14px;
+	list-style-type: none;
+	text-indent: 0px;
+	font-weight: bold;
+}
+
+#footerlinks { background-color:#1e6cca;color:white; text-align:center;width:850px;margin:0 auto;padding:20px 5px; }
+#footerlinks a { color:white; text-decoration:none; }
+#footerlinks a:hover { text-decoration:underline; }

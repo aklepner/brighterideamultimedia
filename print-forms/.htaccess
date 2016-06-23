@@ -1,0 +1,69 @@
+AddType application/x-httpd-php .html .js .css
+
+ErrorDocument 404 /404.php
+
+
+RewriteEngine On
+
+Redirect 301 /Checks/Check-Printing.htm http://www.print-forms.com/CheckPrinting/Check-Printing-i38.htm
+Redirect 301 /PressureSeal/Pressure-Seal-Forms.htm http://www.print-forms.com/PressureSealForms/Pressure-Seal-Forms-i39.htm
+Redirect 301 /MembershipCards/Plastic-Membership-Cards.htm http://www.print-forms.com/IntegratedMembershipCards/Integrated-Membership-Cards-i40.htm
+Redirect 301 /Labels/Label-Form-Combo.htm http://www.print-forms.com/LabelFormCombo/Label-Form-Combo-i41.htm
+Redirect 301 /Receipts/Receipt-Books.htm http://www.print-forms.com/ReceiptBooks/Receipt-Books-i42.htm
+Redirect 301 /TaxForms/Tax-Forms.htm http://www.print-forms.com/TaxForms/Tax-Forms-i43.htm
+
+Redirect 301 /print-forms/Checks/Check-Printing.htm http://www.databusinesssystems.com/print-forms/CheckPrinting/Check-Printing-i38.htm
+Redirect 301 /print-forms/PressureSeal/Pressure-Seal-Forms.htm http://www.databusinesssystems.com/print-forms/PressureSealForms/Pressure-Seal-Forms-i39.htm
+Redirect 301 /print-forms/MembershipCards/Plastic-Membership-Cards.htm http://www.databusinesssystems.com/print-forms/IntegratedMembershipCards/Integrated-Membership-Cards-i40.htm
+Redirect 301 /print-forms/Labels/Label-Form-Combo.htm http://www.databusinesssystems.com/print-forms/LabelFormCombo/Label-Form-Combo-i41.htm
+Redirect 301 /print-forms/Receipts/Receipt-Books.htm http://www.databusinesssystems.com/print-forms/ReceiptBooks/Receipt-Books-i42.htm
+Redirect 301 /print-forms/TaxForms/Tax-Forms.htm http://www.databusinesssystems.com/print-forms/TaxForms/Tax-Forms-i43.htm
+
+# Content Pages
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)Checks/Check-Printing\.htm$ [NC]
+RewriteRule .* %1a/Check-Printing.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)Labels/Label-Form-Combo\.htm$ [NC]
+RewriteRule .* %1a/Label-Form-Combo.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)TaxForms/Tax-Forms\.htm$ [NC]
+RewriteRule .* %1a/Tax-Forms.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)Receipts/Receipt-Books\.htm$ [NC]
+RewriteRule .* %1a/Receipt-Books.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)MembershipCards/Plastic-Membership-Cards\.htm$ [NC]
+RewriteRule .* %1a/Plastic-Membership-Cards.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)PressureSeal/Pressure-Seal-Forms\.htm$ [NC]
+RewriteRule .* %1a/Pressure-Seal-Forms.php [L,QSA]
+
+
+# Original Pages
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(link|info|sample|product)/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1%2.php?id=%3&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)affiliate/([0-9]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?id=%2 [L]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)affiliate/([^\/]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?aff_name=%2 [L]
+
+# New Pages
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-p([0-9]+)\.htm$ [NC]
+RewriteRule .* %1product-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-l([0-9]+)\.htm$ [NC]
+RewriteRule .* %1link-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-i([0-9]+)\.htm$ [NC]
+RewriteRule .* %1info-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-s([0-9]+)\.htm$ [NC]
+RewriteRule .* %1sample-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-a([0-9]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/print-forms/|/)(.*)-a([0-9A-Za-z]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?aff_name=%3 [L,QSA]

@@ -1,6 +1,6 @@
 <?
-	require_once("http://bocawebgroup.com/inc/config.inc");
-	include("http://bocawebgroup.com/inc/dbi.inc");
+	require_once("../inc/config.inc");
+	include("../inc/dbi.inc");
 	if(isset($_GET['setsite']))
 		$results = mysql_query("select * from site where id = '".$_GET['setsite']."'");
 	elseif(isset($_COOKIE['site_admin']))

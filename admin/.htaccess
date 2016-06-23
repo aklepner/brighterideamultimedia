@@ -7,7 +7,7 @@
 
 RewriteEngine on
 RewriteCond %{SERVER_PORT} !443$
-RewriteRule ^(.*) https://%{SERVER_NAME}/admin/ [R,L]
+RewriteRule ^(.*) http://%{SERVER_NAME}/admin/ [R,L]
 
 AuthUserFile    /home/databiz/public_html/admin/.htpasswd
 AuthName        "Restricted"

@@ -9,10 +9,10 @@ $ship_type = array(
 );
 
 // Connect to Database Server
-$dbh = mysql_connect("localhost", "bocawebg_dbs", "dbs123")
+$dbh = mysql_connect("localhost", "bocawebg_123", "dbs123")
         or die("Couldn't connect to Database Server!\n");
 // Select Default Database
-mysql_select_db("bocawebg_newdbs", $dbh) or die("Couldn't open Database!\n");
+mysql_select_db("bocawebg_123", $dbh) or die("Couldn't open Database!\n");
 
 function parse_dynamic($data){
 	$data = preg_replace("/\<get_product\=([0-9]+)\>/e", "get_product('\\1')", $data);

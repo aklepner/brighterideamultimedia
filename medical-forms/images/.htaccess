@@ -1,0 +1,6 @@
+RewriteOptions Inherit
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_URI} images\/thumb\/(.*\.(jp[e]?g))$ [NC]
+RewriteRule .* thumb.php?image=%1 [L]
+RewriteRule captcha.jpg captcha.php

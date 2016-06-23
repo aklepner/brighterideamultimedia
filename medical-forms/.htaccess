@@ -1,0 +1,64 @@
+AddType application/x-httpd-php .html
+
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+Redirect 301 /HCFAForms/CMS1500-Insurance-Claim-Forms.htm http://www.medical-forms.com/HCFAForms/CMS1500-Insurance-Claim-Forms-i44.htm
+Redirect 301 /HCFAForms/Medical-Claim-Forms.htm http://www.medical-forms.com/HCFAForms/Medical-Claim-Forms-i47.htm
+Redirect 301 /MedicalOfficeForms/Dental-Forms.htm http://www.medical-forms.com/MedicalOfficeForms/Dental-Forms-i45.htm
+Redirect 301 /PrescriptionForms/Prescription-Pads.htm http://www.medical-forms.com/PrescriptionForms/Prescription-Pads-i48.htm
+Redirect 301 /HospitalLaboratoryForms/Healthcare-Forms.htm http://www.medical-forms.com/HospitalLaboratoryForms/Healthcare-Forms-i46.htm
+
+Redirect 301 /medical-forms/HCFAForms/CMS1500-Insurance-Claim-Forms.htm http://www.databusinesssystems.com/medical-forms/HCFAForms/CMS1500-Insurance-Claim-Forms-i44.htm
+Redirect 301 /medical-forms/HCFAForms/Medical-Claim-Forms.htm http://www.databusinesssystems.com/medical-forms/HCFAForms/Medical-Claim-Forms-i47.htm
+Redirect 301 /medical-forms/MedicalOfficeForms/Dental-Forms.htm http://www.databusinesssystems.com/medical-forms/MedicalOfficeForms/Dental-Forms-i45.htm
+Redirect 301 /medical-forms/PrescriptionForms/Prescription-Pads.htm http://www.databusinesssystems.com/medical-forms/PrescriptionForms/Prescription-Pads-i48.htm
+Redirect 301 /medical-forms/HospitalLaboratoryForms/Healthcare-Forms.htm http://www.databusinesssystems.com/medical-forms/HospitalLaboratoryForms/Healthcare-Forms-i46.htm
+
+
+# Content Pages
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)HCFAForms/CMS1500-Insurance-Claim-Forms\.htm$ [NC]
+RewriteRule .* %1a/CMS1500-Insurance-Claim-Forms.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)HCFAForms/Medical-Claim-Forms\.htm$ [NC]
+RewriteRule .* %1a/Medical-Claim-Forms.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)MedicalOfficeForms/Dental-Forms\.htm$ [NC]
+RewriteRule .* %1a/Dental-Forms.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)PrescriptionForms/Prescription-Pads\.htm$ [NC]
+RewriteRule .* %1a/Prescription-Pads.php [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)HospitalLaboratoryForms/Healthcare-Forms\.htm$ [NC]
+RewriteRule .* %1a/Healthcare-Forms.php [L,QSA]
+
+
+# Original Pages
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(link|info|sample|product)/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1%2.php?id=%3&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)affiliate/([0-9]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?id=%2 [L]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)affiliate/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1affiliate.php?aff_name=%2 [L]
+
+# New Pages
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-p([0-9]+)\.htm$ [NC]
+RewriteRule .* %1product-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-l([0-9]+)\.htm$ [NC]
+RewriteRule .* %1link-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-i([0-9]+)\.htm$ [NC]
+RewriteRule .* %1info-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-s([0-9]+)\.htm$ [NC]
+RewriteRule .* %1sample-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-a([0-9]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?id=%3 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ^(/medical-forms/|/)(.*)-a([0-9A-Za-z]+)\.htm$ [NC]
+RewriteRule .* %1affiliate-new.php?aff_name=%3 [L,QSA]

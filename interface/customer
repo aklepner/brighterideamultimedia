@@ -1,0 +1,27 @@
+<?
+	if($_SERVER["HTTPS"] != 'on'){
+		print "Error: This interface must be accessed via a secure connection!";
+		exit;
+	}
+
+	if($_POST["do"] == "iscribe"){
+		session_start();
+		$from = "DBS Interface <noreply@databusinesssystems.com>";
+		$header = "Return-Path: $from\r\nFrom: $from\r\nReply-To: $from";
+		// Clean null's
+		foreach($_POST as $idx => $val)
+			$_POST[$idx] = trim(preg_replace("/\bnull\b/i","",$val));
+		$message = "$_POST[name] has just entered using the iScribe Interface.\n\n";
+		$fields = array("email","name","address1","address2","city","state","zip_code","phone");
+		foreach($fields as $item){
+			$_SESSION['icustomer'][$item] = $_POST[$item];
+			$message .= $item.":\t".$_POST[$item]."\n";
+		}
+		mail("jk@databusinesssystems.com","iScribe Usage",$message,$header);
+		header("Location: /medical-forms/product/118/");
+		exit;
+	}else{
+		header("Location: http://www.databusinesssystems.com");
+		exit;
+	}
+?>

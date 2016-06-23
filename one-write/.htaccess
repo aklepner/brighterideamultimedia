@@ -1,0 +1,13 @@
+AddType application/x-httpd-php .html .js .css
+
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^(/one-write/|/)(link|info|sample|product)/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1%2.php?id=%3&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} ^(/one-write/|/)affiliate/([0-9]*)/?$ [NC]
+RewriteRule .* %1affiliate.php?id=%2 [L]
+
+RewriteCond %{REQUEST_URI} ^(/one-write/|/)affiliate/([^\/]*)[\/]?$ [NC]
+RewriteRule .* %1affiliate.php?aff_name=%2 [L]

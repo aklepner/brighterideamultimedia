@@ -1,0 +1,170 @@
+<?
+	require_once("/home/databiz/public_html/medical-forms/inc/config.inc");
+	header("Last-Modified: ".gmdate('D, d M Y H:i:s T', getlastmod()));
+	header("Content-Type: text/css");	
+?>
+
+body{
+	margin: 5px;
+	background-color: #6699CC;
+	color: #000000;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+td, div, p{ 
+	color: #000000;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+a,a:visited,a:active{
+	color : #000099;
+}
+
+a:hover {
+	color : #CC0000;
+}
+
+a.top_menu {
+	font-size:14px;
+	font-weight:bold;
+	color: #666666;
+	text-decoration:none;
+}
+
+a.top_menu:hover {
+	color: #CC0000;
+}
+
+.top_menu {
+	font-size:14px;
+	font-weight:bold;
+	color: #666666;
+	text-decoration:none;
+}
+
+.product_light {
+	background-color:#D8D8D8;
+}
+
+.product_dark {
+	background-color:#EAEAEA;
+}
+
+h1 {
+	background-color : #CCCCCC;
+	font-family : Verdana, Arial, Sans Serif;
+	font-size : 14px;
+	font-weight : bold;
+	text-align : center;
+	color:#CC0000;
+	padding:3px 0 3px 0;
+}
+
+h2 {
+	background-color : #CCCCCC;
+	font-family : Verdana, Arial, Sans Serif;
+	font-size : 12px;
+	font-weight : bold;
+	text-align : center;
+	color:#CC0000;
+	padding:3px 0 3px 0;
+}
+
+.title_bar {
+	background-color : #CCCCCC;
+	font-family : Verdana, Arial, Sans Serif;
+	font-size : 14px;
+	font-weight : bold;
+	text-align : center;
+	color:#CC0000;
+}
+
+.bar {
+	background-color: #CCCCCC;
+}
+
+
+/*Rest of this is for Menu System*/
+
+/*Control DIV for expand all and collapse all links*/
+#p7TMctrl {
+	margin: 0 0 12px 0;
+	font-size: 12px;
+	display: none;
+	/*/*/display: block; /* */
+}
+#p7TMctrl a:link {
+	color: #FFFFFF;
+}
+#p7TMctrl a:visited {
+	color: #FFFFFF;
+}
+#p7TMctrl a:hover {
+	color: #000000;
+}
+
+/*Sets line-height of all top-level menuitems*/
+#p7TMnav div {
+	/*/*/line-height: 1.7; /* */
+}
+/*Sets line-height of all other menuitems*/
+#p7TMnav div div {
+	/*/*/line-height: 1.25; /* */
+}
+/*Sets background color and border around the menu DIV*/
+#p7TMnav {
+	background-color: #FFFFFF;
+	border: 2px none #fff;
+}
+/*second level menuitem divs and lower -Cascades to lower levels-*/
+/*Sets left margin to .8em establishing a fluid cascading indent*/
+#p7TMnav div div {
+	margin: 0 0 0 1.0em;
+}
+
+/*The Link style for top-level menuitems and is read by all browsers*/
+#p7TMnav div a {
+	padding-left:4px;
+	color: #CC0000;
+	font-size: 12px;
+}
+/*The Link style for top-level menuitems hidden from Netscape 4*/
+#p7TMnav div a {
+	display: block;
+	border: 1px solid #FFFFFF;
+	text-decoration: none;
+	background-color: #CCCCCC;
+	color:#CC0000;
+	font-size: 12px;
+	font-weight:bold;
+}
+#p7TMnav div a:visited {
+	color: #CC0000;
+}
+#p7TMnav div a:hover {
+	color: #CCCCCC;
+	background-color: #CC0000;
+}
+
+/*The Link and visited styles combined for second-level menuitems*/
+#p7TMnav div div a, #p7TMnav div div a:visited {
+	color: #000099;
+	font-size: 12px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	border:1px solid #FFFFFF;
+}
+#p7TMnav div div a:hover {
+	color: #000099;
+	background-color: #FFFFFF;
+	border:1px solid #000000;
+}
+
+/*The Link style for third-level menuitems and lower*/
+/*To set a specific style for the fourth level, add a div to the selector*/
+/*Fourth-level example syntax: p7TMnav div div div div a {declaration}*/
+#p7TMnav div div div a {
+	font-size: 12px;
+}
